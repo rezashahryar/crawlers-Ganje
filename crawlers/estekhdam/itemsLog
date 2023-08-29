@@ -1,0 +1,3826 @@
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: estekhdam)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'estekhdam',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'estekhdam.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['estekhdam.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 30788c328e154077
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/robots.txt> (referer: None)
+DEBUG:filelock:Attempting to acquire lock 4488060192 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4488060192 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 4488060192 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4488060192 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (301) to <GET https://estekhdam.in/jobs/> from <GET https://estekhdam.in/jobs/page/1/>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:100.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:0.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس خسارت درمان تکمیلی',
+ 'token': 320852380709987656,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:50.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:0.0
+INFO:root:50.0
+INFO:root:0.0
+INFO:root:100.0
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام دو نفر برقکار – تبریز',
+ 'token': 532518865564262028,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/'}
+INFO:root:0.0
+INFO:root:33.33333333333333
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:0.0
+INFO:root:33.33333333333333
+INFO:root:0.0
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/>
+{'category': 'not_defined',
+ 'city': ' اصفهان',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم، دارای حداقل ۳ سال سابقه کار',
+ 'token': 748613135972772595,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:25.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:25.0
+INFO:root:50.0
+INFO:root:0.0
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کاردانی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام در شرکت حسابداری درنیکا مدرن پارس',
+ 'token': 126258352153145970,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:20.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:40.0
+INFO:root:60.0
+INFO:root:0.0
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام کارشناس حسابداری',
+ 'token': 501822607815851228,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:33.33333333333333
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:33.33333333333333
+INFO:root:50.0
+INFO:root:0.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:42.857142857142854
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:42.857142857142854
+INFO:root:57.14285714285714
+INFO:root:14.285714285714285
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام انباردار و مهندس سرویس',
+ 'token': 117728158460900801,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام معاون مالی',
+ 'token': 139037511783054978,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:37.5
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:50.0
+INFO:root:62.5
+INFO:root:12.5
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام برنامه\u200cنویس ارشد React) Front-End)',
+ 'token': 114112052211953102,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:44.44444444444444
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:55.55555555555556
+INFO:root:66.66666666666666
+INFO:root:22.22222222222222
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:50.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:50.0
+INFO:root:70.0
+INFO:root:20.0
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:54.54545454545454
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:54.54545454545454
+INFO:root:72.72727272727273
+INFO:root:27.27272727272727
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'منشي مطب خانم',
+ 'token': 684067182583348011,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم',
+ 'token': 123974561643792087,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام خدمه خانم در پیش دبستانی',
+ 'token': 111306829371623833,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/'}
+INFO:root:0.0
+INFO:root:58.333333333333336
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:58.333333333333336
+INFO:root:75.0
+INFO:root:33.33333333333333
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'کارآموزی',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کار آموزش حضوری سئو مشهد',
+ 'token': 806604657505775349,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:61.53846153846154
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:61.53846153846154
+INFO:root:76.92307692307693
+INFO:root:38.46153846153847
+INFO:root:100.0
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/> (referer: https://estekhdam.in/jobs/)
+INFO:root:0.0
+INFO:root:57.14285714285714
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:64.28571428571429
+INFO:root:78.57142857142857
+INFO:root:35.714285714285715
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ادمین تلگرام',
+ 'token': 107380321155441479,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/'}
+INFO:root:0.0
+INFO:root:53.333333333333336
+INFO:root:100.0
+INFO:root:0.0
+INFO:root:60.0
+INFO:root:80.0
+INFO:root:40.0
+INFO:root:100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'كارشناس اتاق عمل',
+ 'token': 127911448056208453,
+ 'url': 'https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' هرمزگان (بندر عباس)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فناوری اطلاعات سلامت',
+ 'token': 126958033114476626,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 7624,
+ 'downloader/request_count': 19,
+ 'downloader/request_method_count/GET': 19,
+ 'downloader/response_bytes': 10156064,
+ 'downloader/response_count': 19,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 25.597141,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 10, 7, 15, 20, 34760),
+ 'httpcompression/response_bytes': 40443413,
+ 'httpcompression/response_count': 18,
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 39,
+ 'log_count/INFO': 130,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 66125824,
+ 'memusage/startup': 66125824,
+ 'request_depth_max': 2,
+ 'response_received_count': 18,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 18,
+ 'scheduler/dequeued/memory': 18,
+ 'scheduler/enqueued': 18,
+ 'scheduler/enqueued/memory': 18,
+ 'start_time': datetime.datetime(2022, 9, 10, 7, 14, 54, 437619)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: estekhdam)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'estekhdam',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'estekhdam.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['estekhdam.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: acc7473e1178f642
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/robots.txt> (referer: None)
+DEBUG:filelock:Attempting to acquire lock 4389770704 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4389770704 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 4389770704 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4389770704 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (301) to <GET https://estekhdam.in/jobs/> from <GET https://estekhdam.in/jobs/page/1/>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 0.0
+INFO:root:gender : 100.0
+INFO:root:experience : 0.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس خسارت درمان تکمیلی',
+ 'token': 320852380709987656,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 50.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 0.0
+INFO:root:gender : 50.0
+INFO:root:experience : 0.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام دو نفر برقکار – تبریز',
+ 'token': 532518865564262028,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 33.33333333333333
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 33.33333333333333
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 0.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کاردانی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام در شرکت حسابداری درنیکا مدرن پارس',
+ 'token': 126258352153145970,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 50.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 25.0
+INFO:root:gender : 50.0
+INFO:root:experience : 0.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام انباردار و مهندس سرویس',
+ 'token': 117728158460900801,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/'}
+INFO:root:city : 0.0
+INFO:root:education : 60.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 40.0
+INFO:root:gender : 60.0
+INFO:root:experience : 20.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام معاون مالی',
+ 'token': 139037511783054978,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 50.0
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 33.33333333333333
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'کارآموزی',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کار آموزش حضوری سئو مشهد',
+ 'token': 806604657505775349,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 71.42857142857143
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 42.857142857142854
+INFO:root:gender : 71.42857142857143
+INFO:root:experience : 28.57142857142857
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم',
+ 'token': 123974561643792087,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 62.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 50.0
+INFO:root:gender : 75.0
+INFO:root:experience : 25.0
+INFO:root:teleworking : 100.0
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 55.55555555555556
+INFO:root:gender : 77.77777777777779
+INFO:root:experience : 33.33333333333333
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام کارشناس حسابداری',
+ 'token': 501822607815851228,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'منشي مطب خانم',
+ 'token': 684067182583348011,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/'}
+INFO:root:city : 0.0
+INFO:root:education : 60.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 60.0
+INFO:root:gender : 80.0
+INFO:root:experience : 30.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام برنامه\u200cنویس ارشد React) Front-End)',
+ 'token': 114112052211953102,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 54.54545454545454
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 54.54545454545454
+INFO:root:gender : 81.81818181818183
+INFO:root:experience : 36.36363636363637
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' هرمزگان (بندر عباس)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فناوری اطلاعات سلامت',
+ 'token': 126958033114476626,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 58.333333333333336
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 58.333333333333336
+INFO:root:gender : 83.33333333333334
+INFO:root:experience : 41.66666666666667
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ادمین تلگرام',
+ 'token': 107380321155441479,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 53.84615384615385
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 53.84615384615385
+INFO:root:gender : 76.92307692307693
+INFO:root:experience : 38.46153846153847
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/>
+{'category': 'not_defined',
+ 'city': ' اصفهان',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم، دارای حداقل ۳ سال سابقه کار',
+ 'token': 748613135972772595,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 57.14285714285714
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 57.14285714285714
+INFO:root:gender : 78.57142857142857
+INFO:root:experience : 42.857142857142854
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام خدمه خانم در پیش دبستانی',
+ 'token': 111306829371623833,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 53.333333333333336
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 60.0
+INFO:root:gender : 80.0
+INFO:root:experience : 40.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'كارشناس اتاق عمل',
+ 'token': 127911448056208453,
+ 'url': 'https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 7624,
+ 'downloader/request_count': 19,
+ 'downloader/request_method_count/GET': 19,
+ 'downloader/response_bytes': 10151334,
+ 'downloader/response_count': 19,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 35.932977,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 10, 7, 18, 40, 194333),
+ 'httpcompression/response_bytes': 40400045,
+ 'httpcompression/response_count': 18,
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 39,
+ 'log_count/INFO': 130,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 65847296,
+ 'memusage/startup': 65847296,
+ 'request_depth_max': 2,
+ 'response_received_count': 18,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 18,
+ 'scheduler/dequeued/memory': 18,
+ 'scheduler/enqueued': 18,
+ 'scheduler/enqueued/memory': 18,
+ 'start_time': datetime.datetime(2022, 9, 10, 7, 18, 4, 261356)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: estekhdam)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'estekhdam',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'estekhdam.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['estekhdam.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: bb76e5bc99fc2ec4
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/robots.txt> (referer: None)
+DEBUG:filelock:Attempting to acquire lock 4610560384 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4610560384 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 4610560384 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4610560384 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (301) to <GET https://estekhdam.in/jobs/> from <GET https://estekhdam.in/jobs/page/1/>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 100.0
+INFO:root:experience : 100.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارمند فروش',
+ 'token': 577635099323064447,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 50.0
+INFO:root:experience : 50.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' اردبیل',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش اتکا و رفاه شهرستان به صورت تلفنی',
+ 'token': 114215987806678706,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 33.33333333333333
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس صنایع – شهرک غرب',
+ 'token': 128228030332591656,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 75.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 75.0
+INFO:root:experience : 50.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام طراحی صنعتی – مجموعه صنعتی پارامتر',
+ 'token': 397362737483281878,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 80.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 80.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 80.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'دورکاری',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': True,
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام بازاریاب با روحیه قوی',
+ 'token': 902091249300434127,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 83.33333333333334
+INFO:root:experience : 50.0
+INFO:root:teleworking : 83.33333333333334
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '7',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مدیر امور قرارداد',
+ 'token': 959674314164560005,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 57.14285714285714
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 85.71428571428571
+INFO:root:experience : 57.14285714285714
+INFO:root:teleworking : 85.71428571428571
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مسول فنی – احمد اباد مستوفی',
+ 'token': 136436525751191112,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 62.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 100.0
+INFO:root:gender : 87.5
+INFO:root:experience : 62.5
+INFO:root:teleworking : 87.5
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'طراح گرافیک',
+ 'token': 362365702637584378,
+ 'url': 'https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/'}
+INFO:scrapy.extensions.logstats:Crawled 11 pages (at 11 pages/min), scraped 8 items (at 8 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 88.88888888888889
+INFO:root:gender : 88.88888888888889
+INFO:root:experience : 66.66666666666666
+INFO:root:teleworking : 88.88888888888889
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارگر انبار آقا',
+ 'token': 490298664046141083,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 70.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 90.0
+INFO:root:gender : 80.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 90.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش  اتکا و رفاه تهران',
+ 'token': 133967096399749627,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 72.72727272727273
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 81.81818181818183
+INFO:root:gender : 72.72727272727273
+INFO:root:experience : 63.63636363636363
+INFO:root:teleworking : 90.9090909090909
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'آبدارچی',
+ 'token': 111755753086981480,
+ 'url': 'https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 75.0
+INFO:root:gender : 75.0
+INFO:root:experience : 66.66666666666666
+INFO:root:teleworking : 91.66666666666666
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'پذیرش نیروی ساده',
+ 'token': 144069734832263991,
+ 'url': 'https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 61.53846153846154
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 69.23076923076923
+INFO:root:gender : 69.23076923076923
+INFO:root:experience : 61.53846153846154
+INFO:root:teleworking : 92.3076923076923
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس صنایع خانم',
+ 'token': 141715834421524447,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 64.28571428571429
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 64.28571428571429
+INFO:root:gender : 64.28571428571429
+INFO:root:experience : 64.28571428571429
+INFO:root:teleworking : 92.85714285714286
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'اپراتور تولید آقا',
+ 'token': 795542194356189935,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 60.0
+INFO:root:gender : 60.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 93.33333333333333
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'امور دفتری و بایگانی',
+ 'token': 929806998800990260,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.extensions.feedexport:Stored json feed (15 items) in: res.json
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 7522,
+ 'downloader/request_count': 19,
+ 'downloader/request_method_count/GET': 19,
+ 'downloader/response_bytes': 8104714,
+ 'downloader/response_count': 19,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 100.436579,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 11, 12, 6, 31, 615201),
+ 'httpcompression/response_bytes': 40532859,
+ 'httpcompression/response_count': 18,
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 39,
+ 'log_count/INFO': 132,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 210599936,
+ 'memusage/startup': 72613888,
+ 'request_depth_max': 2,
+ 'response_received_count': 18,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 18,
+ 'scheduler/dequeued/memory': 18,
+ 'scheduler/enqueued': 18,
+ 'scheduler/enqueued/memory': 18,
+ 'start_time': datetime.datetime(2022, 9, 11, 12, 4, 51, 178622)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: estekhdam)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'estekhdam',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'estekhdam.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['estekhdam.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: e9404eb2ad3350dc
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/robots.txt> (referer: None)
+DEBUG:filelock:Attempting to acquire lock 4467910800 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4467910800 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 4467910800 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4467910800 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (301) to <GET https://estekhdam.in/jobs/> from <GET https://estekhdam.in/jobs/page/1/>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/page/5/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/page/3/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/page/2/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/page/4/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/> (referer: https://estekhdam.in/jobs/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%a7%d8%b3%d8%a7%da%98%d9%88%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%d8%a8%d8%a7-%d8%aa%d8%ac%d8%b1%d8%a8%d9%87/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 0.0
+INFO:root:gender : 100.0
+INFO:root:experience : 0.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%a7%d8%b3%d8%a7%da%98%d9%88%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%d8%a8%d8%a7-%d8%aa%d8%ac%d8%b1%d8%a8%d9%87/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '3000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ماساژور خانم با تجربه',
+ 'token': 870905495983312816,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%a7%d8%b3%d8%a7%da%98%d9%88%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%d8%a8%d8%a7-%d8%aa%d8%ac%d8%b1%d8%a8%d9%87/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%b3%d8%a8-%d9%88%d8%af%d8%b1%d8%a7%d9%85%d8%af-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 0.0
+INFO:root:gender : 100.0
+INFO:root:experience : 50.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%b3%d8%a8-%d9%88%d8%af%d8%b1%d8%a7%d9%85%d8%af-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کسب ودرامد اینترنتی',
+ 'token': 120341050133557616,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%b3%d8%a8-%d9%88%d8%af%d8%b1%d8%a7%d9%85%d8%af-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-4-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 0.0
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 66.66666666666666
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-4-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '3000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام 4 نفر نیروی کار خانم – کارمند اداری',
+ 'token': 648980091163223373,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-4-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ac%d8%b0%d8%a8-%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%a7%db%8c%d9%86%d8%b3%d8%aa%d8%a7%da%af%d8%b1%d8%a7%d9%85/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 100.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 25.0
+INFO:root:gender : 75.0
+INFO:root:experience : 50.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ac%d8%b0%d8%a8-%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%a7%db%8c%d9%86%d8%b3%d8%aa%d8%a7%da%af%d8%b1%d8%a7%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'جذب ادمین اینستاگرام',
+ 'token': 652806356523747162,
+ 'url': 'https://estekhdam.in/jobs/%d8%ac%d8%b0%d8%a8-%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%a7%db%8c%d9%86%d8%b3%d8%aa%d8%a7%da%af%d8%b1%d8%a7%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%aa%d8%b9%d9%85%db%8c%d8%b1%da%a9%d8%a7%d8%b1-%d8%ae%d9%88%d8%af%d8%b1%d9%88-%d9%87%d8%b1-%d9%86%d9%88%d8%b9-%d8%ae%d9%88%d8%af%d8%b1%d9%88/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 80.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 20.0
+INFO:root:gender : 80.0
+INFO:root:experience : 40.0
+INFO:root:teleworking : 100.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%aa%d8%b9%d9%85%db%8c%d8%b1%da%a9%d8%a7%d8%b1-%d8%ae%d9%88%d8%af%d8%b1%d9%88-%d9%87%d8%b1-%d9%86%d9%88%d8%b9-%d8%ae%d9%88%d8%af%d8%b1%d9%88/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کاردانی',
+ 'experience': '7',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '2000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام تعمیرکار خودرو – هر نوع خودرو',
+ 'token': 790317217548538808,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%aa%d8%b9%d9%85%db%8c%d8%b1%da%a9%d8%a7%d8%b1-%d8%ae%d9%88%d8%af%d8%b1%d9%88-%d9%87%d8%b1-%d9%86%d9%88%d8%b9-%d8%ae%d9%88%d8%af%d8%b1%d9%88/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d9%88-%d8%ac%d8%b0%d8%a8-%d9%85%d8%ae%d8%a7%d8%b7%d8%a8/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 83.33333333333334
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 33.33333333333333
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 50.0
+INFO:root:teleworking : 83.33333333333334
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d9%88-%d8%ac%d8%b0%d8%a8-%d9%85%d8%ae%d8%a7%d8%b7%d8%a8/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'دورکاری',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': True,
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'بازاریاب و جذب مخاطب',
+ 'token': 128100764921191686,
+ 'url': 'https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d9%88-%d8%ac%d8%b0%d8%a8-%d9%85%d8%ae%d8%a7%d8%b7%d8%a8/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%af%db%8c%d8%aa%d9%88%d8%b1-%d8%ad%d8%b1%d9%81%d9%87-%d8%a7%db%8c-%d8%a8%d8%a7-%d8%b3%d9%88%d8%a7%d8%af%d8%a8%d8%b1%d8%a7%db%8c-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 85.71428571428571
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 42.857142857142854
+INFO:root:gender : 71.42857142857143
+INFO:root:experience : 42.857142857142854
+INFO:root:teleworking : 85.71428571428571
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%af%db%8c%d8%aa%d9%88%d8%b1-%d8%ad%d8%b1%d9%81%d9%87-%d8%a7%db%8c-%d8%a8%d8%a7-%d8%b3%d9%88%d8%a7%d8%af%d8%a8%d8%b1%d8%a7%db%8c-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ادیتور حرفه ای با سوادبرای یوتیوب',
+ 'token': 145701833697040516,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%af%db%8c%d8%aa%d9%88%d8%b1-%d8%ad%d8%b1%d9%81%d9%87-%d8%a7%db%8c-%d8%a8%d8%a7-%d8%b3%d9%88%d8%a7%d8%af%d8%a8%d8%b1%d8%a7%db%8c-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%aa%d8%a8%d9%84%db%8c%d8%ba%d8%a7%d8%aa-%d8%af%d8%b1-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%da%a9-%d9%84%db%8c%d9%86%da%a9-%d9%88-%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 87.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 50.0
+INFO:root:gender : 75.0
+INFO:root:experience : 50.0
+INFO:root:teleworking : 87.5
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%aa%d8%a8%d9%84%db%8c%d8%ba%d8%a7%d8%aa-%d8%af%d8%b1-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%da%a9-%d9%84%db%8c%d9%86%da%a9-%d9%88-%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'تبلیغات در قالب بک لینک و رپورتاژ',
+ 'token': 588677764394524507,
+ 'url': 'https://estekhdam.in/jobs/%d8%aa%d8%a8%d9%84%db%8c%d8%ba%d8%a7%d8%aa-%d8%af%d8%b1-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%da%a9-%d9%84%db%8c%d9%86%da%a9-%d9%88-%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%b3%d8%a7%d9%84%d9%86-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%86%d8%a7%d8%ae%d9%86/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 88.88888888888889
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 44.44444444444444
+INFO:root:gender : 77.77777777777779
+INFO:root:experience : 55.55555555555556
+INFO:root:teleworking : 88.88888888888889
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%b3%d8%a7%d9%84%d9%86-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%86%d8%a7%d8%ae%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '3000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'سالن خدمات ناخن',
+ 'token': 992316729941536604,
+ 'url': 'https://estekhdam.in/jobs/%d8%b3%d8%a7%d9%84%d9%86-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%86%d8%a7%d8%ae%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c%d9%86/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 90.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 50.0
+INFO:root:gender : 70.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 90.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مدیر دفتر، کارمند اداری مهندسین',
+ 'token': 463535763057134284,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%b2%d9%85%db%8c%d9%86%d9%87-%d9%85%d8%b9%d8%af%d9%86-%d9%88-%d8%b5%d9%86/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 90.9090909090909
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 54.54545454545454
+INFO:root:gender : 72.72727272727273
+INFO:root:experience : 63.63636363636363
+INFO:root:teleworking : 90.9090909090909
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%b2%d9%85%db%8c%d9%86%d9%87-%d9%85%d8%b9%d8%af%d9%86-%d9%88-%d8%b5%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس مکانیک در زمینه معدن و صنایع معدنی',
+ 'token': 107688540159392211,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%b2%d9%85%db%8c%d9%86%d9%87-%d9%85%d8%b9%d8%af%d9%86-%d9%88-%d8%b5%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d8%a2%d9%82%d8%a7%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 83.33333333333334
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 58.333333333333336
+INFO:root:gender : 75.0
+INFO:root:experience : 66.66666666666666
+INFO:root:teleworking : 91.66666666666666
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d8%a2%d9%82%d8%a7%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'نیروی خدماتی آقا(آبدارچی)',
+ 'token': 100950315174652454,
+ 'url': 'https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d8%a2%d9%82%d8%a7%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 76.92307692307693
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 61.53846153846154
+INFO:root:gender : 76.92307692307693
+INFO:root:experience : 61.53846153846154
+INFO:root:teleworking : 92.3076923076923
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس صنایع – شهرک غرب',
+ 'token': 128228030332591656,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b4%d9%87%d8%b1%da%a9-%d8%ba%d8%b1%d8%a8/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b3%d8%a7%d8%af%d9%87-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 71.42857142857143
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 57.14285714285714
+INFO:root:gender : 78.57142857142857
+INFO:root:experience : 57.14285714285714
+INFO:root:teleworking : 92.85714285714286
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b3%d8%a7%d8%af%d9%87-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام حسابدار ساده – خانم',
+ 'token': 905018460333440996,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b3%d8%a7%d8%af%d9%87-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 73.33333333333333
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 60.0
+INFO:root:gender : 80.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 93.33333333333333
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام طراحی صنعتی – مجموعه صنعتی پارامتر',
+ 'token': 397362737483281878,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d9%be%d8%a7%d8%b1%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 75.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 62.5
+INFO:root:gender : 81.25
+INFO:root:experience : 62.5
+INFO:root:teleworking : 93.75
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارمند فروش',
+ 'token': 577635099323064447,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%81%d8%b1%d9%88%d8%b4-13/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 70.58823529411765
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 58.82352941176471
+INFO:root:gender : 82.35294117647058
+INFO:root:experience : 64.70588235294117
+INFO:root:teleworking : 94.11764705882352
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'پذیرش نیروی ساده',
+ 'token': 144069734832263991,
+ 'url': 'https://estekhdam.in/jobs/%d9%be%d8%b0%db%8c%d8%b1%d8%b4-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%b3%d8%a7%d8%af%d9%87/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 72.22222222222221
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 55.55555555555556
+INFO:root:gender : 77.77777777777779
+INFO:root:experience : 66.66666666666666
+INFO:root:teleworking : 94.44444444444444
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'آبدارچی',
+ 'token': 111755753086981480,
+ 'url': 'https://estekhdam.in/jobs/%d8%a2%d8%a8%d8%af%d8%a7%d8%b1%da%86%db%8c-4/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%85%d8%ad%d8%af%d9%88%d8%af%d9%87-%d8%b3%d8%b9%d8%a7%d8%af%d8%aa-%d8%a2%d8%a8%d8%a7%d8%af/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 68.42105263157895
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 57.89473684210527
+INFO:root:gender : 73.68421052631578
+INFO:root:experience : 63.1578947368421
+INFO:root:teleworking : 94.73684210526315
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%85%d8%ad%d8%af%d9%88%d8%af%d9%87-%d8%b3%d8%b9%d8%a7%d8%af%d8%aa-%d8%a2%d8%a8%d8%a7%d8%af/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام حسابدار در محدوده سعادت آباد',
+ 'token': 103073442695352854,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%85%d8%ad%d8%af%d9%88%d8%af%d9%87-%d8%b3%d8%b9%d8%a7%d8%af%d8%aa-%d8%a2%d8%a8%d8%a7%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 65.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 60.0
+INFO:root:gender : 75.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 95.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام کارشناس حسابداری',
+ 'token': 501822607815851228,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85-%d8%a2%d8%b4%d9%86%d8%a7-%d8%a8%d9%87-%d8%b1%d8%a7%db%8c%d8%a7%d9%86%d9%87/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 66.66666666666666
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 61.904761904761905
+INFO:root:gender : 76.19047619047619
+INFO:root:experience : 61.904761904761905
+INFO:root:teleworking : 95.23809523809523
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85-%d8%a2%d8%b4%d9%86%d8%a7-%d8%a8%d9%87-%d8%b1%d8%a7%db%8c%d8%a7%d9%86%d9%87/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارمند اداری خانم آشنا به رایانه',
+ 'token': 791049302679630754,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85-%d8%a2%d8%b4%d9%86%d8%a7-%d8%a8%d9%87-%d8%b1%d8%a7%db%8c%d8%a7%d9%86%d9%87/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 68.18181818181817
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 63.63636363636363
+INFO:root:gender : 77.27272727272727
+INFO:root:experience : 63.63636363636363
+INFO:root:teleworking : 90.9090909090909
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'دورکاری',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': True,
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام بازاریاب با روحیه قوی',
+ 'token': 902091249300434127,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a8%d8%a7-%d8%b1%d9%88%d8%ad%db%8c%d9%87-%d9%82%d9%88%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 69.56521739130434
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 65.21739130434783
+INFO:root:gender : 73.91304347826086
+INFO:root:experience : 60.86956521739131
+INFO:root:teleworking : 91.30434782608695
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش  اتکا و رفاه تهران',
+ 'token': 133967096399749627,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 70.83333333333334
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 66.66666666666666
+INFO:root:gender : 70.83333333333334
+INFO:root:experience : 58.333333333333336
+INFO:root:teleworking : 91.66666666666666
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' اردبیل',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش اتکا و رفاه شهرستان به صورت تلفنی',
+ 'token': 114215987806678706,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%da%a9%d8%a7-%d9%88-%d8%b1%d9%81%d8%a7%d9%87-%d8%b4%d9%87%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 72.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 68.0
+INFO:root:gender : 72.0
+INFO:root:experience : 60.0
+INFO:root:teleworking : 92.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'طراح گرافیک',
+ 'token': 362365702637584378,
+ 'url': 'https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%da%af%d8%b1%d8%a7%d9%81%db%8c%da%a9-3/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 69.23076923076923
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 69.23076923076923
+INFO:root:gender : 73.07692307692307
+INFO:root:experience : 61.53846153846154
+INFO:root:teleworking : 92.3076923076923
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مسول فنی – احمد اباد مستوفی',
+ 'token': 136436525751191112,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b3%d9%88%d9%84-%d9%81%d9%86%db%8c-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d8%a8%d8%a7%d8%af-%d9%85%d8%b3%d8%aa%d9%88%d9%81%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 70.37037037037037
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 66.66666666666666
+INFO:root:gender : 74.07407407407408
+INFO:root:experience : 62.96296296296296
+INFO:root:teleworking : 92.5925925925926
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارگر انبار آقا',
+ 'token': 490298664046141083,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%da%af%d8%b1-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d8%a2%d9%82%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 67.85714285714286
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 67.85714285714286
+INFO:root:gender : 75.0
+INFO:root:experience : 60.71428571428571
+INFO:root:teleworking : 92.85714285714286
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '7',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مدیر امور قرارداد',
+ 'token': 959674314164560005,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d8%af%d8%a7%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 68.96551724137932
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 65.51724137931035
+INFO:root:gender : 72.41379310344827
+INFO:root:experience : 58.620689655172406
+INFO:root:teleworking : 93.10344827586206
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'امور دفتری و بایگانی',
+ 'token': 929806998800990260,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d9%85%d9%88%d8%b1-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a8%d8%a7%db%8c%da%af%d8%a7%d9%86%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%86%d8%a7%d8%b8%d8%b1-%d9%85%d9%82%db%8c%d9%85-%d8%a8%d8%b1%d9%82/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 70.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 66.66666666666666
+INFO:root:gender : 70.0
+INFO:root:experience : 56.666666666666664
+INFO:root:teleworking : 93.33333333333333
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%86%d8%a7%d8%b8%d8%b1-%d9%85%d9%82%db%8c%d9%85-%d8%a8%d8%b1%d9%82/>
+{'category': 'not_defined',
+ 'city': ' اردبیل',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '7',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ناظر مقیم برق',
+ 'token': 135997186290527135,
+ 'url': 'https://estekhdam.in/jobs/%d9%86%d8%a7%d8%b8%d8%b1-%d9%85%d9%82%db%8c%d9%85-%d8%a8%d8%b1%d9%82/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 70.96774193548387
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 64.51612903225806
+INFO:root:gender : 67.74193548387096
+INFO:root:experience : 58.06451612903226
+INFO:root:teleworking : 93.54838709677419
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'اپراتور تولید آقا',
+ 'token': 795542194356189935,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d9%be%d8%b1%d8%a7%d8%aa%d9%88%d8%b1-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d8%a2%d9%82%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d9%88-%db%8c%d8%a7-%d8%b5%d9%86%d8%a7%db%8c%d8%b9/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 71.875
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 65.625
+INFO:root:gender : 68.75
+INFO:root:experience : 59.375
+INFO:root:teleworking : 93.75
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d9%88-%db%8c%d8%a7-%d8%b5%d9%86%d8%a7%db%8c%d8%b9/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مهندس مکانیک و یا صنایع',
+ 'token': 144333169175077310,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d9%88-%db%8c%d8%a7-%d8%b5%d9%86%d8%a7%db%8c%d8%b9/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%a8%d8%b1%d9%82-%d9%85%d8%b3%d9%84%d8%b7-%d8%a8%d9%87-%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1%d8%b2%db%8c%d8%b1/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 69.6969696969697
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 66.66666666666666
+INFO:root:gender : 69.6969696969697
+INFO:root:experience : 57.57575757575758
+INFO:root:teleworking : 93.93939393939394
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%a8%d8%b1%d9%82-%d9%85%d8%b3%d9%84%d8%b7-%d8%a8%d9%87-%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1%d8%b2%db%8c%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '7',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس برق – مسلط به نرم افزارزیر',
+ 'token': 753469634246142008,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%a8%d8%b1%d9%82-%d9%85%d8%b3%d9%84%d8%b7-%d8%a8%d9%87-%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1%d8%b2%db%8c%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d9%81%d9%86%db%8c-2/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 67.64705882352942
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 67.64705882352942
+INFO:root:gender : 70.58823529411765
+INFO:root:experience : 58.82352941176471
+INFO:root:teleworking : 91.17647058823529
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d9%81%d9%86%db%8c-2/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'دورکاری',
+ 'description': 'not_defined',
+ 'education': 'دکتری',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': True,
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مسئول فنی',
+ 'token': 430437480763206088,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d9%81%d9%86%db%8c-2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%87%d9%85%da%a9%d8%a7%d8%b1-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 65.71428571428571
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 65.71428571428571
+INFO:root:gender : 68.57142857142857
+INFO:root:experience : 57.14285714285714
+INFO:root:teleworking : 91.42857142857143
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%87%d9%85%da%a9%d8%a7%d8%b1-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام همکار حسابدار خانم',
+ 'token': 110981328721354195,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%87%d9%85%da%a9%d8%a7%d8%b1-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/> (referer: https://estekhdam.in/jobs/)
+INFO:root:city : 0.0
+INFO:root:education : 63.888888888888886
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 0.0
+INFO:root:salary : 63.888888888888886
+INFO:root:gender : 66.66666666666666
+INFO:root:experience : 55.55555555555556
+INFO:root:teleworking : 91.66666666666666
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس صنایع خانم',
+ 'token': 141715834421524447,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%ae%d8%a7%d9%86%d9%85-3/'}
+INFO:scrapy.extensions.logstats:Crawled 43 pages (at 43 pages/min), scraped 36 items (at 36 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%d8%a8%d8%a7%d9%86%d9%88-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1%d8%aa-%d8%aa%d9%85%d8%a7%d9%85-%d9%88%d9%82%d8%aa/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 64.86486486486487
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.7027027027027026
+INFO:root:salary : 64.86486486486487
+INFO:root:gender : 67.56756756756756
+INFO:root:experience : 54.054054054054056
+INFO:root:teleworking : 91.8918918918919
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%d8%a8%d8%a7%d9%86%d9%88-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1%d8%aa-%d8%aa%d9%85%d8%a7%d9%85-%d9%88%d9%82%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'not_defined',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مسئول دفتر، بانو به صورت تمام وقت',
+ 'token': 113503688785234987,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%af%d9%81%d8%aa%d8%b1%d8%8c-%d8%a8%d8%a7%d9%86%d9%88-%d8%a8%d9%87-%d8%b5%d9%88%d8%b1%d8%aa-%d8%aa%d9%85%d8%a7%d9%85-%d9%88%d9%82%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%ac%d9%87%d8%aa-%d8%af%d9%81%d8%aa%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%da%a9%d8%a7%d8%b1%d8%ae%d8%a7%d9%86%d9%87-%d8%b3%d8%a7/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 65.78947368421053
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.631578947368421
+INFO:root:salary : 65.78947368421053
+INFO:root:gender : 65.78947368421053
+INFO:root:experience : 55.26315789473685
+INFO:root:teleworking : 92.10526315789474
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%ac%d9%87%d8%aa-%d8%af%d9%81%d8%aa%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%da%a9%d8%a7%d8%b1%d8%ae%d8%a7%d9%86%d9%87-%d8%b3%d8%a7/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش جهت دفتر مرکزی کارخانه سالیان درب ماندگار',
+ 'token': 508680400510509096,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%ac%d9%87%d8%aa-%d8%af%d9%81%d8%aa%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%da%a9%d8%a7%d8%b1%d8%ae%d8%a7%d9%86%d9%87-%d8%b3%d8%a7/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 64.1025641025641
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.564102564102564
+INFO:root:salary : 64.1025641025641
+INFO:root:gender : 64.1025641025641
+INFO:root:experience : 53.84615384615385
+INFO:root:teleworking : 92.3076923076923
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارمند دفتری و اداری خانم',
+ 'token': 889756105848161818,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%af%d9%81%d8%aa%d8%b1%db%8c-%d9%88-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b7%d8%b1%d8%a7%d8%ad-%d8%b9%d9%85%d8%b1%d8%a7%d9%86-%d9%88-%d8%b7%d8%b1%d8%a7%d8%ad-%d9%85%d8%b9%d9%85%d8%a7%d8%b1%db%8c/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 62.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.5
+INFO:root:salary : 62.5
+INFO:root:gender : 62.5
+INFO:root:experience : 52.5
+INFO:root:teleworking : 92.5
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b7%d8%b1%d8%a7%d8%ad-%d8%b9%d9%85%d8%b1%d8%a7%d9%86-%d9%88-%d8%b7%d8%b1%d8%a7%d8%ad-%d9%85%d8%b9%d9%85%d8%a7%d8%b1%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام مهندس  طراح عمران و طراح معماری با بیش از 3 سال سابقه کار',
+ 'token': 577665235428746187,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b7%d8%b1%d8%a7%d8%ad-%d8%b9%d9%85%d8%b1%d8%a7%d9%86-%d9%88-%d8%b7%d8%b1%d8%a7%d8%ad-%d9%85%d8%b9%d9%85%d8%a7%d8%b1%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-18/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 63.41463414634146
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.4390243902439024
+INFO:root:salary : 60.97560975609756
+INFO:root:gender : 63.41463414634146
+INFO:root:experience : 51.21951219512195
+INFO:root:teleworking : 92.6829268292683
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-18/>
+{'category': 'not_defined',
+ 'city': ' مرکزی (اراک)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'بازاریاب',
+ 'token': 125123091769219666,
+ 'url': 'https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-18/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%aa%d9%84%d9%81%d9%86%db%8c-6/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 64.28571428571429
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.380952380952381
+INFO:root:salary : 59.523809523809526
+INFO:root:gender : 61.904761904761905
+INFO:root:experience : 50.0
+INFO:root:teleworking : 92.85714285714286
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%aa%d9%84%d9%81%d9%86%db%8c-6/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش تلفنی',
+ 'token': 327618970405771730,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-%d8%aa%d9%84%d9%81%d9%86%db%8c-6/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d9%85%d8%b9%d8%aa%d8%a8%d8%b1-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d8%a8%d8%a7%d8%b2%d8%b1%da%af%d8%a7%d9%86%db%8c-%d8%af/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 65.11627906976744
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.3255813953488373
+INFO:root:salary : 58.139534883720934
+INFO:root:gender : 60.46511627906976
+INFO:root:experience : 48.837209302325576
+INFO:root:teleworking : 93.02325581395348
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d9%85%d8%b9%d8%aa%d8%a8%d8%b1-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d8%a8%d8%a7%d8%b2%d8%b1%da%af%d8%a7%d9%86%db%8c-%d8%af/>
+{'category': 'not_defined',
+ 'city': ' اصفهان',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار – شرکت معتبر خدماتی و بازرگانی در اصفهان',
+ 'token': 654731819814597811,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d9%85%d8%b9%d8%aa%d8%a8%d8%b1-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d8%a8%d8%a7%d8%b2%d8%b1%da%af%d8%a7%d9%86%db%8c-%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a2%d9%82%d8%a7-%d9%88-%d8%ac%d9%88%d8%a7%d9%86/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 63.63636363636363
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.272727272727273
+INFO:root:salary : 56.81818181818182
+INFO:root:gender : 59.09090909090909
+INFO:root:experience : 47.72727272727273
+INFO:root:teleworking : 93.18181818181817
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a2%d9%82%d8%a7-%d9%88-%d8%ac%d9%88%d8%a7%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام کارمند آقا و جوان',
+ 'token': 128563018463544623,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%a2%d9%82%d8%a7-%d9%88-%d8%ac%d9%88%d8%a7%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 62.22222222222222
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.2222222222222223
+INFO:root:salary : 57.77777777777777
+INFO:root:gender : 60.0
+INFO:root:experience : 46.666666666666664
+INFO:root:teleworking : 93.33333333333333
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کاردانی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام در شرکت حسابداری درنیکا مدرن پارس',
+ 'token': 126258352153145970,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d8%b1-%d8%b4%d8%b1%da%a9%d8%aa-%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1%db%8c-%d8%af%d8%b1%d9%86%db%8c%da%a9%d8%a7-%d9%85%d8%af%d8%b1%d9%86-%d9%be/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 63.04347826086957
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.1739130434782608
+INFO:root:salary : 56.52173913043478
+INFO:root:gender : 58.69565217391305
+INFO:root:experience : 45.65217391304348
+INFO:root:teleworking : 93.47826086956522
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام انباردار و مهندس سرویس',
+ 'token': 117728158460900801,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d9%88-%d9%85%d9%87%d9%86%d8%af%d8%b3-%d8%b3%d8%b1%d9%88%db%8c%d8%b3/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d9%86%d8%b8%d8%a7%d9%81%d8%aa/> (referer: https://estekhdam.in/jobs/page/4/)
+INFO:root:city : 0.0
+INFO:root:education : 61.702127659574465
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.127659574468085
+INFO:root:salary : 57.446808510638306
+INFO:root:gender : 59.57446808510638
+INFO:root:experience : 44.680851063829785
+INFO:root:teleworking : 93.61702127659575
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d9%86%d8%b8%d8%a7%d9%81%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'نیروی خدماتی و نظافت',
+ 'token': 201498661017168806,
+ 'url': 'https://estekhdam.in/jobs/%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%ae%d8%af%d9%85%d8%a7%d8%aa%db%8c-%d9%88-%d9%86%d8%b8%d8%a7%d9%81%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 62.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.083333333333333
+INFO:root:salary : 56.25
+INFO:root:gender : 60.416666666666664
+INFO:root:experience : 43.75
+INFO:root:teleworking : 93.75
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم',
+ 'token': 123974561643792087,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85-5/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 63.26530612244898
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.0408163265306123
+INFO:root:salary : 57.14285714285714
+INFO:root:gender : 61.224489795918366
+INFO:root:experience : 44.89795918367347
+INFO:root:teleworking : 93.87755102040816
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام خدمه خانم در پیش دبستانی',
+ 'token': 111306829371623833,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%af%d9%85%d9%87-%d8%ae%d8%a7%d9%86%d9%85-%d8%af%d8%b1-%d9%be%db%8c%d8%b4-%d8%af%d8%a8%d8%b3%d8%aa%d8%a7%d9%86%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 64.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.0
+INFO:root:salary : 57.99999999999999
+INFO:root:gender : 62.0
+INFO:root:experience : 46.0
+INFO:root:teleworking : 94.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/>
+{'category': 'not_defined',
+ 'city': ' خراسان رضوی (مشهد)',
+ 'cooperation': 'کارآموزی',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کار آموزش حضوری سئو مشهد',
+ 'token': 806604657505775349,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b6%d9%88%d8%b1%db%8c-%d8%b3%d8%a6%d9%88-%d9%85%d8%b4%d9%87%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 62.745098039215684
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.9607843137254901
+INFO:root:salary : 58.82352941176471
+INFO:root:gender : 62.745098039215684
+INFO:root:experience : 45.09803921568628
+INFO:root:teleworking : 94.11764705882352
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام برنامه\u200cنویس ارشد React) Front-End)',
+ 'token': 114112052211953102,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%86%d9%88%db%8c%d8%b3-%d8%a7%d8%b1%d8%b4%d8%af-react-front-end/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%8c-%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 61.53846153846154
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.9230769230769231
+INFO:root:salary : 59.61538461538461
+INFO:root:gender : 61.53846153846154
+INFO:root:experience : 44.230769230769226
+INFO:root:teleworking : 94.23076923076923
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%8c-%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس تولید محتوای تصویری ، گرافیست',
+ 'token': 811875862992018733,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%8c-%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 62.264150943396224
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.8867924528301887
+INFO:root:salary : 60.37735849056604
+INFO:root:gender : 62.264150943396224
+INFO:root:experience : 45.28301886792453
+INFO:root:teleworking : 94.33962264150944
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'منشي مطب خانم',
+ 'token': 684067182583348011,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d9%86%d8%b4%d9%8a-%d9%85%d8%b7%d8%a8-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%86%d8%b4%db%8c-%d9%81%d8%b1%d9%88%d8%b4-%d8%ae%db%8c%d8%a7%d8%a8%d8%a7%d9%86-%d9%84%d8%a7%d9%84%d9%87-%d8%b2%d8%a7%d8%b1/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 62.96296296296296
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.8518518518518516
+INFO:root:salary : 59.25925925925925
+INFO:root:gender : 62.96296296296296
+INFO:root:experience : 46.2962962962963
+INFO:root:teleworking : 94.44444444444444
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%86%d8%b4%db%8c-%d9%81%d8%b1%d9%88%d8%b4-%d8%ae%db%8c%d8%a7%d8%a8%d8%a7%d9%86-%d9%84%d8%a7%d9%84%d9%87-%d8%b2%d8%a7%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام منشی فروش (خیابان لاله زار )',
+ 'token': 269746820152394282,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d9%86%d8%b4%db%8c-%d9%81%d8%b1%d9%88%d8%b4-%d8%ae%db%8c%d8%a7%d8%a8%d8%a7%d9%86-%d9%84%d8%a7%d9%84%d9%87-%d8%b2%d8%a7%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%86%d9%86%d8%af-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%af%d9%81%d8%aa%d8%b1%db%8c/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 61.81818181818181
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.8181818181818181
+INFO:root:salary : 58.18181818181818
+INFO:root:gender : 63.63636363636363
+INFO:root:experience : 47.27272727272727
+INFO:root:teleworking : 94.54545454545455
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%86%d9%86%d8%af-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%af%d9%81%d8%aa%d8%b1%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام چند نفر نیروی دفتری',
+ 'token': 859184489627077099,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%da%86%d9%86%d8%af-%d9%86%d9%81%d8%b1-%d9%86%db%8c%d8%b1%d9%88%db%8c-%d8%af%d9%81%d8%aa%d8%b1%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 60.71428571428571
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 1.7857142857142856
+INFO:root:salary : 57.14285714285714
+INFO:root:gender : 64.28571428571429
+INFO:root:experience : 48.214285714285715
+INFO:root:teleworking : 94.64285714285714
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' هرمزگان (بندر عباس)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فناوری اطلاعات سلامت',
+ 'token': 126958033114476626,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1%db%8c-%d9%88-%d9%85%d8%ac%d8%b1%d8%a8/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 61.40350877192983
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.508771929824561
+INFO:root:salary : 56.14035087719298
+INFO:root:gender : 64.91228070175438
+INFO:root:experience : 49.122807017543856
+INFO:root:teleworking : 94.73684210526315
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1%db%8c-%d9%88-%d9%85%d8%ac%d8%b1%d8%a8/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'not_defined',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام نیروی کاری و مجرب',
+ 'token': 144270366750623666,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%86%db%8c%d8%b1%d9%88%db%8c-%da%a9%d8%a7%d8%b1%db%8c-%d9%88-%d9%85%d8%ac%d8%b1%d8%a8/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%af%d8%b3%d8%aa%db%8c%d8%a7%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86%d9%be%d8%b2%d8%b4%da%a9-%d8%b3%d8%a7%da%a9%d9%86-%d8%ba%d8%b1%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 60.3448275862069
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.4482758620689653
+INFO:root:salary : 56.896551724137936
+INFO:root:gender : 65.51724137931035
+INFO:root:experience : 48.275862068965516
+INFO:root:teleworking : 94.82758620689656
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%af%d8%b3%d8%aa%db%8c%d8%a7%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86%d9%be%d8%b2%d8%b4%da%a9-%d8%b3%d8%a7%da%a9%d9%86-%d8%ba%d8%b1%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'دستیار دندانپزشک – ساکن غرب تهران',
+ 'token': 517742514306451077,
+ 'url': 'https://estekhdam.in/jobs/%d8%af%d8%b3%d8%aa%db%8c%d8%a7%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86%d9%be%d8%b2%d8%b4%da%a9-%d8%b3%d8%a7%da%a9%d9%86-%d8%ba%d8%b1%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d9%88%db%8c%d8%af%d8%a6%d9%88%db%8c%db%8c-%d8%8c-%d8%aa%d8%af%d9%88%db%8c%d9%86%da%af/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 61.016949152542374
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.389830508474576
+INFO:root:salary : 57.6271186440678
+INFO:root:gender : 64.40677966101694
+INFO:root:experience : 49.152542372881356
+INFO:root:teleworking : 94.91525423728814
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d9%88%db%8c%d8%af%d8%a6%d9%88%db%8c%db%8c-%d8%8c-%d8%aa%d8%af%d9%88%db%8c%d9%86%da%af/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس تولید محتوای ویدئویی ، تدوینگر',
+ 'token': 120017392587489319,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%aa%d9%88%d9%84%db%8c%d8%af-%d9%85%d8%ad%d8%aa%d9%88%d8%a7%db%8c-%d9%88%db%8c%d8%af%d8%a6%d9%88%db%8c%db%8c-%d8%8c-%d8%aa%d8%af%d9%88%db%8c%d9%86%da%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%be%d8%b1%d9%88%da%98%d9%87-%d8%a7%d8%b3%d8%aa%d8%a7%d9%86-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 60.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.3333333333333335
+INFO:root:salary : 56.666666666666664
+INFO:root:gender : 63.33333333333333
+INFO:root:experience : 48.333333333333336
+INFO:root:teleworking : 95.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%be%d8%b1%d9%88%da%98%d9%87-%d8%a7%d8%b3%d8%aa%d8%a7%d9%86-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' خوزستان (اهواز)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام انباردار در پروژه استان خوزستان',
+ 'token': 616245233995491275,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%86%d8%a8%d8%a7%d8%b1%d8%af%d8%a7%d8%b1-%d8%af%d8%b1-%d9%be%d8%b1%d9%88%da%98%d9%87-%d8%a7%d8%b3%d8%aa%d8%a7%d9%86-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%85%d8%af%d9%84-%d9%88%db%8c%d8%af%db%8c%d9%88-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa%db%8c/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 60.65573770491803
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.278688524590164
+INFO:root:salary : 55.73770491803278
+INFO:root:gender : 63.934426229508205
+INFO:root:experience : 49.18032786885246
+INFO:root:teleworking : 93.44262295081968
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%85%d8%af%d9%84-%d9%88%db%8c%d8%af%db%8c%d9%88-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'دورکاری',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '2000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': True,
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'مدل ویدیو بهداشتی',
+ 'token': 787370044764408639,
+ 'url': 'https://estekhdam.in/jobs/%d9%85%d8%af%d9%84-%d9%88%db%8c%d8%af%db%8c%d9%88-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/> (referer: https://estekhdam.in/jobs/page/2/)
+INFO:root:city : 0.0
+INFO:root:education : 61.29032258064516
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.225806451612903
+INFO:root:salary : 56.451612903225815
+INFO:root:gender : 64.51612903225806
+INFO:root:experience : 50.0
+INFO:root:teleworking : 93.54838709677419
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'ادمین تلگرام',
+ 'token': 107380321155441479,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%af%d9%85%db%8c%d9%86-%d8%aa%d9%84%da%af%d8%b1%d8%a7%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%be%d8%b1%d8%b3%da%a9%d8%a7%d8%b1-%d9%88-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%d9%86%d8%af/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 61.904761904761905
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.1746031746031744
+INFO:root:salary : 55.55555555555556
+INFO:root:gender : 65.07936507936508
+INFO:root:experience : 49.2063492063492
+INFO:root:teleworking : 93.65079365079364
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%be%d8%b1%d8%b3%da%a9%d8%a7%d8%b1-%d9%88-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%d9%86%d8%af/>
+{'category': 'not_defined',
+ 'city': ' کرج',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام پرسکار و قالب بند',
+ 'token': 341181124271605899,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%be%d8%b1%d8%b3%da%a9%d8%a7%d8%b1-%d9%88-%d9%82%d8%a7%d9%84%d8%a8-%d8%a8%d9%86%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%ae%d8%a7%d9%86%d9%85/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 62.5
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.125
+INFO:root:salary : 56.25
+INFO:root:gender : 65.625
+INFO:root:experience : 50.0
+INFO:root:teleworking : 93.75
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%ae%d8%a7%d9%86%d9%85/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام خانم (کارمند خانم)',
+ 'token': 620648297913611305,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ae%d8%a7%d9%86%d9%85-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d8%ae%d8%a7%d9%86%d9%85/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%85%d9%88%d8%b1-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d8%b1%d8%af/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 61.53846153846154
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.076923076923077
+INFO:root:salary : 55.38461538461539
+INFO:root:gender : 64.61538461538461
+INFO:root:experience : 49.23076923076923
+INFO:root:teleworking : 93.84615384615384
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%85%d9%88%d8%b1-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d8%b1%d8%af/>
+{'category': 'not_defined',
+ 'city': ' خوزستان (اهواز)',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کاردانی',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام امور اداری – مرد',
+ 'token': 494809621856699061,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%85%d9%88%d8%b1-%d8%a7%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d8%b1%d8%af/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d8%ad%d9%85%db%8c%d8%af%db%8c/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 62.121212121212125
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 3.0303030303030303
+INFO:root:salary : 56.060606060606055
+INFO:root:gender : 63.63636363636363
+INFO:root:experience : 50.0
+INFO:root:teleworking : 93.93939393939394
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d8%ad%d9%85%db%8c%d8%af%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'پاره وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'بازاریاب آکادمی حمیدی',
+ 'token': 419566878673912120,
+ 'url': 'https://estekhdam.in/jobs/%d8%a8%d8%a7%d8%b2%d8%a7%d8%b1%db%8c%d8%a7%d8%a8-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d8%ad%d9%85%db%8c%d8%af%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%d9%88%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 62.68656716417911
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.9850746268656714
+INFO:root:salary : 56.71641791044776
+INFO:root:gender : 62.68656716417911
+INFO:root:experience : 49.25373134328358
+INFO:root:teleworking : 94.02985074626866
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%d9%88%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'طراح وگرافیست',
+ 'token': 997937655710264711,
+ 'url': 'https://estekhdam.in/jobs/%d8%b7%d8%b1%d8%a7%d8%ad-%d9%88%da%af%d8%b1%d8%a7%d9%81%db%8c%d8%b3%d8%aa/'}
+INFO:scrapy.extensions.logstats:Crawled 74 pages (at 31 pages/min), scraped 67 items (at 31 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ac%d9%88%d8%b4%da%a9%d8%a7%d8%b1-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9%d8%a7%d8%b1/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 61.76470588235294
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.941176470588235
+INFO:root:salary : 55.88235294117647
+INFO:root:gender : 61.76470588235294
+INFO:root:experience : 50.0
+INFO:root:teleworking : 94.11764705882352
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ac%d9%88%d8%b4%da%a9%d8%a7%d8%b1-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9%d8%a7%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': -1,
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام جوشکار – دارای سابقه کار',
+ 'token': 121303104807690424,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ac%d9%88%d8%b4%da%a9%d8%a7%d8%b1-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9%d8%a7%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 60.86956521739131
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.898550724637681
+INFO:root:salary : 55.072463768115945
+INFO:root:gender : 60.86956521739131
+INFO:root:experience : 49.275362318840585
+INFO:root:teleworking : 94.20289855072464
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/>
+{'category': 'not_defined',
+ 'city': ' تبریز',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': '3',
+ 'gender': 'مرد',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام دو نفر برقکار – تبریز',
+ 'token': 532518865564262028,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%af%d9%88-%d9%86%d9%81%d8%b1-%d8%a8%d8%b1%d9%82%da%a9%d8%a7%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 60.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.857142857142857
+INFO:root:salary : 55.714285714285715
+INFO:root:gender : 61.42857142857143
+INFO:root:experience : 48.57142857142857
+INFO:root:teleworking : 94.28571428571428
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'كارشناس اتاق عمل',
+ 'token': 127911448056208453,
+ 'url': 'https://estekhdam.in/jobs/%d9%83%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%a7%d8%aa%d8%a7%d9%82-%d8%b9%d9%85%d9%84/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 59.154929577464785
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.8169014084507045
+INFO:root:salary : 54.929577464788736
+INFO:root:gender : 60.56338028169014
+INFO:root:experience : 47.88732394366197
+INFO:root:teleworking : 94.36619718309859
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/>
+{'category': 'not_defined',
+ 'city': ' اصفهان',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'کارشناسی',
+ 'experience': '3',
+ 'gender': 'زن',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'حسابدار خانم، دارای حداقل ۳ سال سابقه کار',
+ 'token': 748613135972772595,
+ 'url': 'https://estekhdam.in/jobs/%d8%ad%d8%b3%d8%a7%d8%a8%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d9%86%d9%85%d8%8c-%d8%af%d8%a7%d8%b1%d8%a7%db%8c-%d8%ad%d8%af%d8%a7%d9%82%d9%84-%db%b3-%d8%b3%d8%a7%d9%84-%d8%b3%d8%a7%d8%a8%d9%82%d9%87-%da%a9/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 59.72222222222222
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 2.7777777777777777
+INFO:root:salary : 55.55555555555556
+INFO:root:gender : 61.111111111111114
+INFO:root:experience : 48.61111111111111
+INFO:root:teleworking : 94.44444444444444
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'استخدام معاون مالی',
+ 'token': 139037511783054978,
+ 'url': 'https://estekhdam.in/jobs/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%a7%d9%84%db%8c/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-200-%d9%86%d9%81%d8%b1/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 60.273972602739725
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 4.10958904109589
+INFO:root:salary : 56.16438356164384
+INFO:root:gender : 61.64383561643836
+INFO:root:experience : 49.31506849315068
+INFO:root:teleworking : 94.52054794520548
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-200-%d9%86%d9%81%d8%b1/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'not_defined',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': -1,
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس فروش',
+ 'token': 870652818568502935,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d9%81%d8%b1%d9%88%d8%b4-200-%d9%86%d9%81%d8%b1/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%d9%86%db%8c%d8%a7%d8%b2%d9%85%d9%86%d8%af-%d8%aa%d8%b1%d8%a7%d8%b4%da%a9%d8%a7%d8%b1-%d9%81%d8%b1%d8%b2-%da%a9%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%86%d9%84-%d8%a7%d8%b4%d9%86%d8%a7-%d8%a8%d9%87/> (referer: https://estekhdam.in/jobs/page/5/)
+INFO:root:city : 0.0
+INFO:root:education : 59.45945945945946
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 4.054054054054054
+INFO:root:salary : 56.75675675675676
+INFO:root:gender : 62.16216216216216
+INFO:root:experience : 48.64864864864865
+INFO:root:teleworking : 94.5945945945946
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%d9%86%db%8c%d8%a7%d8%b2%d9%85%d9%86%d8%af-%d8%aa%d8%b1%d8%a7%d8%b4%da%a9%d8%a7%d8%b1-%d9%81%d8%b1%d8%b2-%da%a9%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%86%d9%84-%d8%a7%d8%b4%d9%86%d8%a7-%d8%a8%d9%87/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'دیپلم',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': -1,
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'نیازمند تراشکار . فرز کار . پرسنل اشنا به تعمیرات برد های '
+          'الکترونیکی',
+ 'token': 894727578759564208,
+ 'url': 'https://estekhdam.in/jobs/%d9%86%db%8c%d8%a7%d8%b2%d9%85%d9%86%d8%af-%d8%aa%d8%b1%d8%a7%d8%b4%da%a9%d8%a7%d8%b1-%d9%81%d8%b1%d8%b2-%da%a9%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%86%d9%84-%d8%a7%d8%b4%d9%86%d8%a7-%d8%a8%d9%87/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/> (referer: https://estekhdam.in/jobs/page/3/)
+INFO:root:city : 0.0
+INFO:root:education : 60.0
+INFO:root:insurance : 100.0
+INFO:root:cooperation : 4.0
+INFO:root:salary : 56.00000000000001
+INFO:root:gender : 62.66666666666667
+INFO:root:experience : 48.0
+INFO:root:teleworking : 94.66666666666667
+DEBUG:scrapy.core.scraper:Scraped from <200 https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/>
+{'category': 'not_defined',
+ 'city': ' تهران',
+ 'cooperation': 'تمام وقت',
+ 'description': 'not_defined',
+ 'education': 'not_defined',
+ 'experience': '3',
+ 'gender': 'not_defined',
+ 'insurnace': 'not_defined',
+ 'neighbourhood': 'not_defined',
+ 'province': 'not_defined',
+ 'salary': '5000000',
+ 'source_id': 25,
+ 'sub_category': 'not_defined',
+ 'teleworking': 'not_defined',
+ 'thumbnail': 'not_defined',
+ 'time': -1,
+ 'title': 'کارشناس خسارت درمان تکمیلی',
+ 'token': 320852380709987656,
+ 'url': 'https://estekhdam.in/jobs/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3-%d8%ae%d8%b3%d8%a7%d8%b1%d8%aa-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%da%a9%d9%85%db%8c%d9%84%db%8c/'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.extensions.feedexport:Stored json feed (75 items) in: res.json
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 78682,
+ 'downloader/request_count': 83,
+ 'downloader/request_method_count/GET': 83,
+ 'downloader/response_bytes': 38702413,
+ 'downloader/response_count': 83,
+ 'downloader/response_status_count/200': 82,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 127.499915,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 11, 12, 9, 52, 305964),
+ 'httpcompression/response_bytes': 194016340,
+ 'httpcompression/response_count': 82,
+ 'item_scraped_count': 75,
+ 'log_count/DEBUG': 163,
+ 'log_count/INFO': 613,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 325419008,
+ 'memusage/startup': 72761344,
+ 'request_depth_max': 2,
+ 'response_received_count': 82,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 82,
+ 'scheduler/dequeued/memory': 82,
+ 'scheduler/enqueued': 82,
+ 'scheduler/enqueued/memory': 82,
+ 'start_time': datetime.datetime(2022, 9, 11, 12, 7, 44, 806049)}
+INFO:scrapy.core.engine:Spider closed (finished)

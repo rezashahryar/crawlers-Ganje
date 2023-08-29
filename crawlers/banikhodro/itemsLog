@@ -1,0 +1,2746 @@
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: banikhodro)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: banikhodro)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'banikhodro',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'banikhodro.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['banikhodro.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 44313e948b5a4b93
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:filelock:Attempting to acquire lock 5903722448 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 5903722448 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 5903722448 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 5903722448 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (404) <GET https://www.banikhodro.com/robots.txt> (referer: None)
+DEBUG:protego:Rule at line 37 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 44 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 45 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 47 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 57 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 59 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 63 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 65 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 67 without any user agent to enforce it on.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page10> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page4> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET https://www.banikhodro.com/car/sale-190441/2017-lexus-nx300h/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page7> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page1> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page6> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196428/1391-pride-131/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196428/1391-pride-131/>
+{'body_condition': 'دور رنگ',
+ 'brand': 'پراید',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'نقره ای',
+ 'company': 'not_defined',
+ 'consumption': '27000',
+ 'description': '\r\n'
+                '                                                        موتور '
+                'تازه تعمیر به شرط سواری عالی مناسب مصرف کننده بدون کوچکترین '
+                'خرج اماده سواری \r\n'
+                'شاسی جلو بخاطر ترک کوچیک جوش دادم\r\n'
+                'شاسی عقب سقف ستون پلمب\r\n'
+                'تخفیف به خریدار واقعی\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'دنده ای',
+ 'model': '131',
+ 'price': 'توافقی',
+ 'production': '1391',
+ 'province': 'البرز',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196428_1-m.jpg',
+ 'time': 1662811286,
+ 'title': 'پراید 131 1391',
+ 'token': 791191417396888075,
+ 'url': 'https://www.banikhodro.com/car/sale-196428/1391-pride-131/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196422/1395-renault-tondar90/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196422/1395-renault-tondar90/>
+{'body_condition': 'دور رنگ',
+ 'brand': 'رنو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '57800',
+ 'description': '\r\n'
+                '                                                        پارس '
+                'تندر سفید .سقف تعویض .ودور رنگ .البته کاپوت .بخشی از صندوق '
+                'عقب ودرب های هر دو سمت قسمت پایین رنگ نداره.حدود ۴۰۰ لیتر '
+                'بنزین داره .دارای روکش وبسیار تمیز واست قیمتش رو کرده .فروش '
+                'نقدی .بیمه یکسال\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'دنده ای',
+ 'model': 'تندر 90',
+ 'price': 'توافقی',
+ 'production': '1395',
+ 'province': 'خراسان رضوی',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196422_1-m.jpg',
+ 'time': 1662811287,
+ 'title': 'رنو تندر 90 1395',
+ 'token': 489161906266950600,
+ 'url': 'https://www.banikhodro.com/car/sale-196422/1395-renault-tondar90/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page5> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-80250/2017-hyundai-sonata/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-80250/2017-hyundai-sonata/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        ارشيد '
+                '/سوناتا فول glsپلاس/فول ایربگ/سقف '
+                'پانوراما/5گرمکن/2سردکن/مانیتور بزرگ فابریک/سیستم صوتی '
+                'اینفینیتی/ساب/زنون و شیشه شور چراغ/رادار جانبی/کیلس '
+                'استارتر/مموری صندلی/صندلی برقی/و...   شرايط اقساط ١٢ و ٢٤ '
+                'ماهه / ارشيد / 09129369845\r\n'
+                '                                                    ',
+ 'fuel': 'هیبرید',
+ 'gear_box': 'اتومات',
+ 'model': 'سوناتا',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/80250_1-m.jpg',
+ 'time': 1662811287,
+ 'title': 'هیوندای سوناتا 2017',
+ 'token': 486646052409482465,
+ 'url': 'https://www.banikhodro.com/car/sale-80250/2017-hyundai-sonata/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-180179/2016-toyota-rav4/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-180179/2016-toyota-rav4/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'تویوتا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '46000',
+ 'description': '\r\n'
+                '                                                        سفارش '
+                'عمان واقعی/فولترین/مشابه صفر/بدون خط و خش/سفارش شرکت '
+                'الفوتیم/10 ایربگ/چراغ زنون HID/صندوق عقب برقی/آینه تاشو '
+                'برقی/سنسور 360 درجه پارک/کیلس استارتر/مانیتور بزرگ فول تمام '
+                'تاچ لمسی با 8 اسپیکر و دوربین عقب چرخشی/سیستم نمایش انتقال '
+                'قدرت و وضعیت مرکز ثقل و پایداری خودرو/جداکننده بار '
+                'عقب/دکمهECOوSPORT/رینگ18بزرگ لکسوسی/ ESP/شیب '
+                'سنج/2دیفرانسیل/داخل دو رنگ مارون و مشکی/سانروف/آینه '
+                'فوتوکرومیک/فرمان برقی/کولر دوال/خروجی برق/کروز کنترل/سرویس ها '
+                'به موقع انجام شده/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'راو 4',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/180179_1-m.jpg',
+ 'time': 1662811288,
+ 'title': 'تویوتا راو 4 2016',
+ 'token': 245776201761027527,
+ 'url': 'https://www.banikhodro.com/car/sale-180179/2016-toyota-rav4/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196436/1395-samand-lx/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196436/1395-samand-lx/>
+{'body_condition': 'کاپوت تعویض',
+ 'brand': 'سمند',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '300000',
+ 'description': '\r\n'
+                '                                                        \r\n'
+                '                                                    ',
+ 'fuel': 'دوگانه سوز',
+ 'gear_box': 'دنده ای',
+ 'model': 'LX',
+ 'price': 'توافقی',
+ 'production': '1395',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/Images/Pic/automobilebodytype_635543312088941654-m.png',
+ 'time': 1662811288,
+ 'title': 'سمند LX 1395',
+ 'token': 275246114344810003,
+ 'url': 'https://www.banikhodro.com/car/sale-196436/1395-samand-lx/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-191069/2017-nissan-juke/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-191069/2017-nissan-juke/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'نیسان',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '33000',
+ 'description': '\r\n'
+                '                                                        '
+                'شرکتی/صفر/مدل پلاتینیوم/بدون خط وخش/کاملا سالم مشابه کم '
+                'کارکرد/فول/4رادار/10 ایربگ/شرکتی با گارانتی/صفر کیلومتر '
+                'واقعی/رینگ18/سقف پاناروما/4دوربین360درجه/کیلس استارتر/گرمکن '
+                'صندلی ها/چراغ زنون/شیشه شور چراغ جلو/مانیتور/گرمکن '
+                'آیینه/سنسور بادتایرTPMS/فرمان برقی /بلوتوث/سنسورنور '
+                'وباران/سنسور360 پارک/گیربکسCVT تیپ ترونیک/کولر دوال '
+                'اتو/کروزکنترل ومحدودکننده سرعت(لیمیتد)/چراغ '
+                'عقبLED/دیلایت/آینه تاشو اتومات/ولکام/ESP/تمام سرویسها به موقع '
+                'انجام شده/فنی وبدنه بدون نقص/چرم ها بدون سایش/آماده انتقال '
+                'سند قطعی\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'جوک',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/191069_1-m.jpg',
+ 'time': 1662811288,
+ 'title': 'نیسان جوک 2017',
+ 'token': 595946702169924865,
+ 'url': 'https://www.banikhodro.com/car/sale-191069/2017-nissan-juke/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-155520/2010-mercedes-benz-c-class/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-155520/2010-mercedes-benz-c-class/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'بنز',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '160000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین/کیت AMG/بدون خط و خش/مشابه صفر/بی '
+                'نظیر/سفارشAvangarde/موتور با تکنولوژی '
+                'کمپرسورKOMPERESSOR/مانیتور بزرگ/موس جلو/10ایربگ/سقف پاناروما '
+                'با سانروف/دنده پشت فرمان/چراغ زنون/شیشه شور چراغ/کولر دیجیتال '
+                'عقب/کولر دوال جلو/ اکو/اسپرت/پرده عقب برقی/سنسور360درجه '
+                'پارک/صندلی چرم و جیر/سیستمESP/کروز کنترل/voice/بلوتوث/بدون '
+                'ارورError/فیس2014/سرویس ها به موقع انجام شده/دیدنی ترین '
+                'بنز/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'کلاس C',
+ 'price': 'توافقی',
+ 'production': '2010',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/155520_1-m.jpg',
+ 'time': 1662811289,
+ 'title': 'بنز کلاس C 2010',
+ 'token': 312683455178797590,
+ 'url': 'https://www.banikhodro.com/car/sale-155520/2010-mercedes-benz-c-class/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page2> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-80369/2017-lexus-nx-200t/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-80369/2017-lexus-nx-200t/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        / '
+                'ارشید/عمان ۷ کلید/ انجین استارتر - رادار کروز جلو - رادار '
+                'تصادف - رادار بین خطوط - رادار جانبی - نور بالا اتوماتیک - '
+                'سنسور پارک - هداپ - دوربین 360 درجه -سیستم مارک لوینسون - '
+                'مانیتور بزرگ - صندلی عقب برقی - سانروف - 2 گرمکن ۲ سردکن - '
+                'چراغ فول LED - رینگ 18 - اتوهلد ترمز دستی برقی (( تحویل فوری '
+                'با شرایط اقساط تا 24 ماه بدون ضامن))09129369845\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX200T',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/80369_1-m.jpg',
+ 'time': 1662811289,
+ 'title': 'لکسوس NX200T 2017',
+ 'token': 196119886015693311,
+ 'url': 'https://www.banikhodro.com/car/sale-80369/2017-lexus-nx-200t/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-80382/2017-hyundai-tucson/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-80382/2017-hyundai-tucson/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                '/ارشید/وارداتی فول/سقف پانوراما/داخل چرم مارون/کیلس '
+                'استارتر/مانیتور بزرگ فابریک/ 2گرمکن 2سردکن /ایربگ فول '
+                '/اتوهلد/ترمزدستی برقی/دوربین عقب/رادار نقطه کور(جانبی)/رینگ '
+                'جدید 19/شیشه شور چراغ/زنون/صندوق برقی/ESP/شیب '
+                'سنج/کروز/بلوتوث/صندلیهای جلو برقی/سنسور باران/دیلایت '
+                '/09120741496\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'توسان',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/80382_1-m.jpg',
+ 'time': 1662811290,
+ 'title': 'هیوندای توسان 2017',
+ 'token': 273422661597391160,
+ 'url': 'https://www.banikhodro.com/car/sale-80382/2017-hyundai-tucson/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-190442/2016-lexus-nx-200t/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-190442/2016-lexus-nx-200t/>
+{'body_condition': 'يک لکه رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '16000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین7کلید F Sport/سفارش عمان/کم کارکرد/بدون خط وخش/مشابه '
+                'صفر/6رادار(رادارهای:کروز هوشمند،ضد تصادف،بین خطوط،نقطه '
+                'کور،جانبی،نوربالا اتو)/4دوربین360/کیت صوتی اگزوز '
+                'فابریکASC/دنده پشت فرمان/سیستم صوتی مارک لوینسون Mark '
+                'Levinson/هدآپ/استارتر از راه دور/11ایربگ+ایربگ زانو/2سرد '
+                'و2گرم/آینه تاشو اتو/چراغ جلوLED/سانروف/مانیتور/ممورى/صندوق '
+                'برقی/شیشه رفلکس/کیلس4درب/صندلی برقی/4حالت رانندگی/ترمزدستی '
+                'برقی/AutoHold/موس تاچ/شارژر وایرلس/ESP/سرویسها به موقع/رنگ '
+                'شدگی درب عقب سمت شاگرد در اثر مالیدگی/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX200T',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/190442_1-m.jpg',
+ 'time': 1662811290,
+ 'title': 'لکسوس NX200T 2016',
+ 'token': 784550100434109681,
+ 'url': 'https://www.banikhodro.com/car/sale-190442/2016-lexus-nx-200t/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-179585/2016-kia-sportage/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-179585/2016-kia-sportage/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '3000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/کارکرد3هزار کیلومتر/استثنایی ترین اسپورتیج/سفارش '
+                'اروپا/بدون کوچکترین خط و خش حتی سپرها/کم کارکرد واقعی به شرط '
+                'نمایندگی/فولترین10ایربگ/مانیتور بزرگ لمسی اینفینیتی/فرمان3 '
+                'حالته/رینگ18پورشه ای/4گرمکن و 2سردکن/سنسور360 درجه پارک/کول '
+                'باکس/ساب عقب/آنتن کوسه ای/کمربند سقفی/2دیفرانسیل/شیشه '
+                'رفلکس/صفحه کیلومتر سوپرویژن/سقف پاناروما/ESP/شیب '
+                'سنج/سانروف/صندلی برقی/Day Light/صندلی چرم/کیلس استارتر/دوربین '
+                'عقب/کروز/بلوتوث/تمام آپشنها فابریک/دارای بیمه بدنه1ساله/فنی '
+                'وبدنه بدون نقص/آماده  انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'اسپورتیج',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/179585_1-m.jpg',
+ 'time': 1662811290,
+ 'title': 'كيا اسپورتیج 2016',
+ 'token': 389856211032634025,
+ 'url': 'https://www.banikhodro.com/car/sale-179585/2016-kia-sportage/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-179847/2016-lexus-nx300h/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-179847/2016-lexus-nx300h/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '63000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین9کلید/سفارش اروپا/بدون خط و خش/مشابه '
+                'صفر/6رادار(رادارهای:کروز هوشمند،ضد تصادف،بین خطوط،نقطه '
+                'کور،جانبی،نوربالا اتو)/4دوربین360درجه/11ایربگ+ایربگ '
+                'زانو/سیستم صوتی مارک لوینسون Mark Levinson/هدآپ/صندلیهای عقب '
+                'و جلو برقی/3گرمکن و2سردکن/آینه تاشو اتومات/چراغهای جلوLED/سقف '
+                'پاناروما/دوربین نوربالا اتومات/مانیتور بزرگ/ممورى/صندوق '
+                'برقی/شیشه رفلکس/نویگیشن/کیلس4درب/استارتر/(4حالت:اسپرت '
+                'پلاس،اسپرت،نرمال،ECO)/ترمزدستی برقی/AutoHold/صفحه موس '
+                'تاچ/شارژر وایرلس/ESP/تمام سرویسها به موقع انجام شده/آماده '
+                'محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX300H',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/179847_1-m.jpg',
+ 'time': 1662811291,
+ 'title': 'لکسوس NX300H 2016',
+ 'token': 122032531744950306,
+ 'url': 'https://www.banikhodro.com/car/sale-179847/2016-lexus-nx300h/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-193839/2017-lexus-nx-200t/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-193839/2017-lexus-nx-200t/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '18000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین7کلید F Sport/سفارش عمان/کم کارکرد واقعی/فلاپ هم '
+                'رنگ/بدون خط وخش/مشابه صفر/کاملاسالم/آگهی شخصی/سرویسها به موقع '
+                'در ایرتویا انجام شده/آماده محضر/6رادار(رادارهای:کروز '
+                'هوشمند،ضد تصادف،بین خطوط،نقطه کور،جانبی،نوربالا اتو)/2سرد '
+                'و2گرم/4دوربین360/کیت صوتی اگزوز فابریکASC/دنده پشت '
+                'فرمان/2دف/دفلاک/سیستم مارک لوینسونMark Levinson/هدآپ/انجین '
+                'استارت از راه دور/سقف پاناروما/11ایربگ/آینه اتو/چراغ '
+                'جلوLED/مانیتور/ممورى/صندوق برقی/رفلکس/صندلی برقی/4حالت '
+                'رانندگی/ESP/ترمز برقی/AutoHold/موس تاچ/شارژر وایرلس\r\n'
+                '\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX200T',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/193839_1-m.jpg',
+ 'time': 1662811291,
+ 'title': 'لکسوس NX200T 2017',
+ 'token': 140760885504944880,
+ 'url': 'https://www.banikhodro.com/car/sale-193839/2017-lexus-nx-200t/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196003/1398-peugeot-206-type2/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196003/1398-peugeot-206-type2/>
+{'body_condition': 'يک لکه رنگ',
+ 'brand': 'پژو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '7500',
+ 'description': '\r\n'
+                '                                                        سند '
+                'دست اول/آگهی شخصی/کم کارکرد/مشابه صفر/فول/کاملا سالم/ بدون خط '
+                'و خش/تیپ 2 فول/مدارک کامل و آماده انتقال/تمامی سرویسها به '
+                'موقع انجام شده/رنگ شدگی درب جلو سمت شاگرد/6ماه بیمه/بیمه تا '
+                'بهمن1401/ایموبیلایزر/۲ ایربگ/سیستم پخش با بلوتوث/فوق العاده '
+                'سالم\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'دنده ای',
+ 'model': '206 تیپ 2',
+ 'price': 'توافقی',
+ 'production': '1398',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196003_1-m.jpg',
+ 'time': 1662811292,
+ 'title': 'پژو 206 تیپ 2 1398',
+ 'token': 107310096527488518,
+ 'url': 'https://www.banikhodro.com/car/sale-196003/1398-peugeot-206-type2/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page9> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-179034/2018-volkswagen-tiguan/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-179034/2018-volkswagen-tiguan/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'فولکس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'شرکتی/فولترین/با لوازم اضافه فابریک شرکت(رکاب،گارد جلو،سر '
+                'اگزوز استیل اسپورت،محافظ استیل سپر عقب،پدال استیل،محافظ '
+                'رکاب،کفپایی)/(2رادار تصادف و خواب آلودگی '
+                'راننده)/اتوپارک/4دوربین۳۶۰/هدآپ گرافیکی/هوک '
+                'برقی/۴گرمکن/2دیفرانسیل با '
+                'سیستم4Motion/گیربکس2کلاچهDSG/مانیتور بزرگ/دنده پشت '
+                'فرمان/فرمانD/صفحه آمپر دیجیتال/صندوق برقی/نورپردازی/کیلس '
+                'استارتر/start&stop/مموری2طرف/اتوهلد/ترمز '
+                'برقی/DriveMode/پاناروما/سانروف/کروز/esp/کولباکس/HDC/چراغهاLED '
+                '/سنسور360پارک/آینه اتومات/ولکام/5سال گارانتی فعال ماموت '
+                'خودرو\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'تیگوان',
+ 'price': 'توافقی',
+ 'production': '2018',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/179034_1-m.jpg',
+ 'time': 1662811293,
+ 'title': 'فولکس تیگوان 2018',
+ 'token': 877033665659692902,
+ 'url': 'https://www.banikhodro.com/car/sale-179034/2018-volkswagen-tiguan/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-187592/2011-hyundai-ix55/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-187592/2011-hyundai-ix55/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '140000',
+ 'description': '\r\n'
+                '                                                        '
+                'فول/سند دست اول/کارکرد واقعی/از اول دست خودم بوده/بی نظیر '
+                'کاملا سالم/بدون خط و خش/تمام آپشنها فابریک/تمام سرویس ها به '
+                'موقع انجام شده در نمایندگی/به شرط کارشناس/سند وکارتکس به نام '
+                'خودم و آماده محضر/بدون سائیدگی چرم/شرکتی آسان '
+                'موتور/فولترین/10 ایربگ/2دیفرانسیل4WD/دفلاک/مانیتور جدید بزرگ '
+                'اندروید/سیستم پخش اینفینیتیinfinity /سابوفر/صندوق عقب '
+                'برقی/پنل کولر عقب/گرمکن صندلیها/چراغ زنون/شیشه شور '
+                'چراغ/مموری/صندلی2طرف برقی/ESP/صندلی چرم/دوربین عقب/کروز '
+                'کنترل/بلوتوث/کیلس/آینه تاشو برقی/آینه  الکتروکرومیک\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'ix55',
+ 'price': 'توافقی',
+ 'production': '2011',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/187592_1-m.jpg',
+ 'time': 1662811294,
+ 'title': 'هیوندای ix55 2011',
+ 'token': 545486533963047090,
+ 'url': 'https://www.banikhodro.com/car/sale-187592/2011-hyundai-ix55/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196418/1397-renault-sandero-stepway/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196418/1397-renault-sandero-stepway/>
+{'body_condition': 'چند لکه رنگ',
+ 'brand': 'رنو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '24750',
+ 'description': '\r\n'
+                '                                                        '
+                'ساندرو استپ وی اتومات با کارکرد کم واقعی .ماشین همیشه خواب '
+                '.روکش چرم مشکی وکف پوش سه بعدی در صندوق عقب واتاق.فروش '
+                'نقدی \r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'ساندرو استپ وی',
+ 'price': 'توافقی',
+ 'production': '1397',
+ 'province': 'خراسان رضوی',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196418_1-m.jpg',
+ 'time': 1662811294,
+ 'title': 'رنو ساندرو استپ وی 1397',
+ 'token': 343807908106141416,
+ 'url': 'https://www.banikhodro.com/car/sale-196418/1397-renault-sandero-stepway/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196427/1395-renault-tondar90/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196427/1395-renault-tondar90/>
+{'body_condition': 'دو لکه رنگ',
+ 'brand': 'رنو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '107000',
+ 'description': '\r\n'
+                '                                                        _ '
+                'ماشین هیچ مشکلی نداره هر 6 ماه چکاپ کلی شده.\r\n'
+                '_ لاستیک ها نو میباشند.\r\n'
+                '_ سند دست دوم هست ولی ماشین سند یک شرکت بود تا قبل از سند '
+                'خودم.\r\n'
+                '_ 1 لکه رنگ قلم گیری. 1 لکه رنگ هم جلوی ماشین بغل در\r\n'
+                '_ صافکاری نشده تابحال.همه ی جزئیات در عکس مشخصه.\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'دنده ای',
+ 'model': 'تندر 90',
+ 'price': 'توافقی',
+ 'production': '1395',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196427_1-m.jpg',
+ 'time': 1662811295,
+ 'title': 'رنو تندر 90 1395',
+ 'token': 108737634099825123,
+ 'url': 'https://www.banikhodro.com/car/sale-196427/1395-renault-tondar90/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-173882/2017-nissan-juke/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-173882/2017-nissan-juke/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'نیسان',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'قرمز',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'شرکتی/صفر/مدل اسپورت/کیت بدنه فابریک/ فولترین جوک/4رادار/Body '
+                'Kit/پلاک شده/توربوشارژ198اسب بخار/دو دیفراسیل/دفلاک/10 '
+                'ایربگ/فول شرکتی با گارانتی جهان نوین آریا/صفر کیلومتر '
+                'واقعی/رینگ18مشکی/کیت کربن/سقف پاناروما/4دوربین 360/کیلس '
+                'استارتر/گرمکن صندلی ها/چراغ زنون/شیشه شور چراغ جلو/گرمکن '
+                'آیینه/سنسور بادتایرTPMS/فرمان برقی /بلوتوث/سنسورنور '
+                'وباران/سنسور360 پارک/گیربکسCVT تیپ ترونیک/کولر دوال '
+                'اتومات/کروزکنترل و محدودکننده سرعت(لیمیتد)/چراغ '
+                'عقبLED/دیلایت/آینه تاشو اتومات/ولکام/ESP/آماده محضر و انتقال '
+                'قطعی\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'جوک',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/173882_1-m.jpg',
+ 'time': 1662811295,
+ 'title': 'نیسان جوک 2017',
+ 'token': 250845422998959818,
+ 'url': 'https://www.banikhodro.com/car/sale-173882/2017-nissan-juke/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-144940/2015-bmw-528i/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-144940/2015-bmw-528i/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'ب ام و',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '38000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین5 کلید/کیتM/نایت ویژن/6رادار(کروز کنترل هوشمند،رادار '
+                'تصادف جلو،رادار عابر پیاده،رادار بین خطوط،رادار جانبی،رادار '
+                'نوربالا)/اتو پارک/ماساژور/هدآپ/5دوربین(360درجه)/وکیوم/سیستم '
+                'هارمن کاردن/چوب یات/صندوق برقی/مموری دو طرف/دنده پشت فرمان/ 3 '
+                'مانیتور /4گرمکن و 2سرکن صندلیها/ 4 درب کیلس و '
+                'استارتر/Adaptive LED /سامانه تشخیص عابر با نور در شب/صندلی '
+                'کامفورت/رادار تنظیم و تشخیص نور بالا/آمپر جدید/شیشه شور '
+                'چراغ/پرده بغل/پرده عقب/سنسور پارک/کولر دوال/AUTO HOLD/ترمز '
+                'دستی برقی/ESP /فرمان برقی/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': '528i',
+ 'price': 'توافقی',
+ 'production': '2015',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/144940_1-m.jpg',
+ 'time': 1662811295,
+ 'title': 'ب ام و 528i 2015',
+ 'token': 566748210648808942,
+ 'url': 'https://www.banikhodro.com/car/sale-144940/2015-bmw-528i/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-182440/2018-hyundai-elantra/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-182440/2018-hyundai-elantra/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '18000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/5سال گارانتی کرمان موتور/سند اول/کم کارکرد/بدون خط '
+                'وخش/کاملا سالم/فولترین/2رادار نقطه کور و خروج از پارک/فول '
+                'ایربگ/مانیتور بزرگ فابریک/آنتن کوسه '
+                'ای/GPSفعال/5گرمکن2سردکن/گرمکن فرمان/Drive Mode/کیلس استارتر '
+                '/رینگ جدید/سانروف/چراغ زنون/چراغ عقب نئونی/سیستم تنظیم ارتفاع '
+                'چراغ/سنسور 360پارک/آینه تاشو اتومات/سیستم Welcome/بلوتوث/کروز '
+                'کنترل/مموری صندلی/صندلی برقی/صندلی چرم/اتولایت/ESP/پدال گاز و '
+                'ترمز اسپورت فلزی/دیلایت/Cool Box/کولر دوال/تمام سرویسها به '
+                'موقع/فنی وبدنه بدون نقص/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'النترا',
+ 'price': 'توافقی',
+ 'production': '2018',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/182440_1-m.jpg',
+ 'time': 1662811296,
+ 'title': 'هیوندای النترا 2018',
+ 'token': 863822622317179076,
+ 'url': 'https://www.banikhodro.com/car/sale-182440/2018-hyundai-elantra/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-191951/1395-kia-cerato-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-191951/1395-kia-cerato-ir/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '76000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/کم کارکرد/استثنایی/سند دوم(از 40 هزار تا دست خودم '
+                'بوده)/فول فابریک/بدون خط و خش/بدون تصادف و ضربه/بی نظیر کاملا '
+                'سالم/2000 اتوماتیک/بدنه و فنی بدون نقص/به شرط '
+                'کارشناس/شرکتی/صندلی چرم/کروز کنترل/اتو لایت(سنسور نور)/تنظیم '
+                'ارتفاع چراغ/ تهویه اتوماتیک /فرمان چرم/رینگ آلومینیومی '
+                'اسپرت/آپشنها فابریک/کم کارکرد واقعی/تخفیف بیمه کامل/تمامی '
+                'سرویسها به موقع انجام شده/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سراتو مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1395',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/191951_1-m.jpg',
+ 'time': 1662811296,
+ 'title': 'كيا سراتو مونتاژ 1395',
+ 'token': 176298070541572317,
+ 'url': 'https://www.banikhodro.com/car/sale-191951/1395-kia-cerato-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-190830/2012-kia-mohave/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-190830/2012-kia-mohave/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '162000',
+ 'description': '\r\n'
+                '                                                        '
+                '8سیلندر/شرکتی/بدون خط وخش/کاملا سالم مشابه کم '
+                'کارکرد/فولترین/فول ایربگ/تنظیم ارتفاع برقی  کمک فنرها/تنظیم '
+                'برقی ارتفاع پدالهای گاز وترمز/سیستم دیفرانسیل  تقسیم نیرو به '
+                'چرخها Auto,4H,4L/شیب سنج/مانیتور بزرگ/گرمکن و سردکن/کولر '
+                'عقب/فرمان برقی/کیلس استارتر /سانروف/زنون/چراغ عقبLED/سنسور '
+                '360پارک جلو و عقب/آینه تاشو برقی/Welcome/بلوتوث/کروز/صندلی '
+                'چرم برقی ومموری/وکیوم صندوق/اتولایت/ESP/کولباکس/کولر '
+                'دوال/دوربین عقب و جلو/تمام سرویسها به موقع انجام شده/فنی '
+                'وبدنه بدون نقص/چرم ها بدون سایش/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'موهاوی',
+ 'price': 'توافقی',
+ 'production': '2012',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/190830_1-m.jpg',
+ 'time': 1662811296,
+ 'title': 'كيا موهاوی 2012',
+ 'token': 138457265133772423,
+ 'url': 'https://www.banikhodro.com/car/sale-190830/2012-kia-mohave/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-144331/1397-kia-cerato-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-144331/1397-kia-cerato-ir/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        سند '
+                'آزاد/فولترین آپشنال /گرانترین رنگ سراتو/2000 اتوماتیک/5سال '
+                'گارانتی/مانیتور بزرگ فابریک/سانروف/کیلس استارتر/صندلی '
+                'چرم/دنده پشت فرمان/کروز کنترل/تنظیم ارتفاع چراغ/مولتی مدیا و '
+                'رهیابGPS/ تهویه اتوماتیک /بلوتوث/فرمان چرم/امکان اضافه کردن '
+                'سفارش مدیران به صورت فابریکی با آپشن های: ( آینه تاشو برقی و '
+                'پاور ویندوز وگرمکن صندلی وماساژور صندلی و شیشه رفلکس و سینی '
+                'زیر موتور و رادارهای نقطه کور و جانبی)/۸۰درصد تخفیف بیمه '
+                'بدنه/صفر واقعی/پلاک نصب نشده/مدارک کامل آماده محضر و انتقال '
+                'سند قطعی\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سراتو مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1397',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/144331_1-m.jpg',
+ 'time': 1662811297,
+ 'title': 'كيا سراتو مونتاژ 1397',
+ 'token': 327769405521307879,
+ 'url': 'https://www.banikhodro.com/car/sale-144331/1397-kia-cerato-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-181840/2014-hyundai-elantra/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-181840/2014-hyundai-elantra/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '91000',
+ 'description': '\r\n'
+                '                                                        فول '
+                'وارداتی/سند دست اول/بی نظیر کاملا سالم/بدون خط و خش/کم کارکرد '
+                'واقعی/10 ایربگ/مانیتور بزرگ/5گرمکن صندلیها و فرمان/صندلی '
+                'برقی/سانروف/ESP/صندلی چرم/دوربین عقب/کروز کنترل/بلوتوث/کیلس '
+                'استارتر/آینه تاشو برقی/کولر دیجیتال/پدال گاز و ترمز با روکش '
+                'فلزی  استیل اسپورت/دستگیره های درب و جلو پنجره کروم/تنظیم '
+                'ارتفاع چراغ جلو/سنسور نور/سنسور باران/سنسور دنده عقب/تمام '
+                'آپشنها فابریک/4حلقه لاستیک نو/تخفیف بیمه کامل/1سال بیمه/فوق '
+                'العاده سالم/تمام سرویس ها به موقع در نمایندگی انجام شده/به '
+                'شرط کارشناس/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'النترا',
+ 'price': 'توافقی',
+ 'production': '2014',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/181840_1-m.jpg',
+ 'time': 1662811297,
+ 'title': 'هیوندای النترا 2014',
+ 'token': 818815254537893780,
+ 'url': 'https://www.banikhodro.com/car/sale-181840/2014-hyundai-elantra/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-82687/2017-kia-sorento/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-82687/2017-kia-sorento/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        ارشید '
+                '/کیا سورنتو شرکتی مشکی داخل مشکی فول /رفلکس فابریک - اتو پارک '
+                '– 5 گرم 2 سرد ( گرمکن فرمان ) - ترمز دستی برقی - اتو هلد - '
+                'سنسور پارک - سقف پانوراما - کیلس استارتر- زنون و زنون شور- '
+                'صندلی دو طرف برقی - مموری صندلی - پرده عقب و دور- سنسور باران '
+                '- کنترل فشار تایر- اسپویلر( بال عقب ) – دیفلاک - دی لایت - '
+                'درایو مد - آنتن کوسه ای – اتو لایت/09120741496\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سورنتو',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/82687_1-m.jpg',
+ 'time': 1662811297,
+ 'title': 'كيا سورنتو 2017',
+ 'token': 706755890721885150,
+ 'url': 'https://www.banikhodro.com/car/sale-82687/2017-kia-sorento/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-149374/1397-kia-cerato-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-149374/1397-kia-cerato-ir/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '23000',
+ 'description': '\r\n'
+                '                                                        سند '
+                'آزاد/مشابه صفر/استثنایی/فولترین آپشنال/بدون خط و خش/4حلقه '
+                'لاستیک هانکوک کره/1سال بیمه/بدون تصادف و ضربه/2000 '
+                'اتوماتیک/5سال گارانتی/مانیتور بزرگ فابریک/سانروف/کیلس '
+                'استارتر/صندلی چرم/دنده پشت فرمان/کروز کنترل/تنظیم ارتفاع '
+                'چراغ/مولتی مدیا و رهیابGPS/ تهویه اتوماتیک /بلوتوث/فرمان '
+                'چرم/۸۰درصد تخفیف بیمه بدنه/صفر واقعی/پلاک نصب نشده/یک رنگ '
+                'شدگی خیلی جزئی به اندازه یک کف دست روی قسمت بالای صندوق عقب '
+                'عکسش هم موجوده/تمام سرویس ها به موقع انجام شده/دیدنی/مدارک '
+                'کامل آماده محضر و انتقال سند قطعی\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سراتو مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1397',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/149374_1-m.jpg',
+ 'time': 1662811298,
+ 'title': 'كيا سراتو مونتاژ 1397',
+ 'token': 903686667604625181,
+ 'url': 'https://www.banikhodro.com/car/sale-149374/1397-kia-cerato-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-79447/2017-toyota-rav4/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-79447/2017-toyota-rav4/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'تویوتا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                '/ارشید/فول ایربگ/سانروف/داخل چرم/مانیتور فابریک ولوم '
+                'تاچ/مانیتور های پشت سری/ESP/شیب سنج/رینگ 18طرح قدیم/صندوق '
+                'برقی/کیلس استارتر/سنسور عقب و جلو/آینه تاشو '
+                'برقی/دیلایت/بلوتوث/کروز/2دف/دوربین عقب. '
+                '/09120741496/09129369845\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'راو 4',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/79447_1-m.jpg',
+ 'time': 1662811298,
+ 'title': 'تویوتا راو 4 2017',
+ 'token': 472957181458749976,
+ 'url': 'https://www.banikhodro.com/car/sale-79447/2017-toyota-rav4/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-195317/2017-ssang-yong-tivoli/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-195317/2017-ssang-yong-tivoli/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'سانگ یانگ',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '56000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین/مشابه صفر/بدون خط و خش/کم کارکرد/وارداتی ساخت کره '
+                'جنوب/ الیت/بیمه تا بهمن 1401/فنی وبدنه کاملا سالم/تمامی '
+                'سرویسها از ابتدا به موقع انجام شده در نمایندگی رامک خودرو و '
+                'قابل استعلام/آماده انتقال سند/10ایربگ/سانروف/مانیتور '
+                'بزرگ8اینچ فابریک/رینگ جدید/فرمان برقیDکات3حالته/3حالت '
+                'رانندگیWEP/صندلی چرم/گرمکن/آینه تاشو برقی اتومات با '
+                'ولکام/گیربکسAISIN ژاپن/کروز/کیلس استارتر/ESP/سیستم تعیین '
+                'زاویه فرمان/سنسور پارک360درجه/دوربین/سنسور نور و باران/آینه '
+                'الکتروکرومیک/بلوتوث/تنظیم ارتفاع چراغ/زاپاس بزرگ\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'تیوولی',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/195317_1-m.jpg',
+ 'time': 1662811298,
+ 'title': 'سانگ یانگ تیوولی 2017',
+ 'token': 214676251815880085,
+ 'url': 'https://www.banikhodro.com/car/sale-195317/2017-ssang-yong-tivoli/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-163219/2016-mg-6/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-163219/2016-mg-6/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'ام جی',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '57000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/نیوفیس/بدون خط وخش/کم کارکرد/شرکتی5 سال '
+                'گارانتی/فولترین/توربو/10ایربگ/ترمز دستی برقی و '
+                'اتوهلد/گرمکن/مانیتور بزرگ/سانروف/دنده پشت فرمان/چراغ زنون با '
+                'سیستم چرخش و تنظیم ارتفاع اتومات با چراغ شور/سنسور360درجه '
+                'پارک/دوربین عقب/سیستمStart&Stopاستارت استاپ/کروز '
+                'کنترل/ESP/سنسور بادTPMS/کولر دوال/صندلیها برقی/چرم صندلی '
+                'وفرمان/دیلایت/شیشهUV/کیلس استارت فشاری/Cool '
+                'box/Voice/بلوتوث/آینه الکتروکرومیک/سنسور نور و باران/تمام '
+                'سرویسها به موقع انجام شده/فنی وبدنه بدون نقص/آماده تعویض پلاک '
+                'و انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': '6',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/163219_1-m.jpg',
+ 'time': 1662811299,
+ 'title': 'ام جی 6 2016',
+ 'token': 273570272551815110,
+ 'url': 'https://www.banikhodro.com/car/sale-163219/2016-mg-6/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-162256/2016-bmw-528i/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-162256/2016-bmw-528i/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'ب ام و',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '23000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین/5کلید/کیتM/مشابه صفر/استثنایی ترین528 ایران/بدون '
+                'کوچکترین خط وخش/کم کارکرد واقعی/اتو پارک/ویبره فرمان/7رادار '
+                'های:(کروز کنترل هوشمند،بین خطوط،نقطه کور،ترمز اضطراری،تشخیص '
+                'عابر،تنظیم نوربالا)/نایت ویژن/هدآپ/4دوربین360درجه/وکیوم/صندوق '
+                'برقی و صندوق پران هوشمند/مموری/دنده پشت فرمان/3مانیتور/5گرمکن '
+                'صندلیها و فرمان/4درب کیلس استارتر/AdaptiveLED/صفحه کیلومتر '
+                'جدید/شیشه شور چراغ/پرده بغل وعقب/سنسور کمک پارک/کولر دیجیتال '
+                'عقب/AUTO HOLD/ترمز دستی برقی/فرمان '
+                'برقی/سراگزوزپلاتینیومز/رفلکس فابریک/بال عقب\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': '528i',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/162256_1-m.jpg',
+ 'time': 1662811299,
+ 'title': 'ب ام و 528i 2016',
+ 'token': 160354644306521745,
+ 'url': 'https://www.banikhodro.com/car/sale-162256/2016-bmw-528i/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-174599/2018-renault-koleos/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-174599/2018-renault-koleos/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'رنو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'خاکستری',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'صفر/فول کامل/شرکتی/اتوترانک/اتو پارک۳حالته ورود و '
+                'خروج/2رادار/رادار نقطه کور  و رادار خروج از  پارک/صفر کیلومتر '
+                'واقعی با کیلومتر 1000/سیستم صوتی بوسBOSE/ساب عقب '
+                'وجلو/سنسور360درجه/گرم کن و سردکن/صندو ق برقی/چراغها LED '
+                'تکنولوژیPURE VISION/مانیتور لمسی بزرگ/کیلومتر تمام '
+                'دیجیتال/نورپردازی داخل/ترمزدستی برقی/سقف پاناروما/سانروف/کیلس '
+                'استارتر/دفلاک/آینه تاشو برقی/صندلی '
+                'برقی/اتولایت/ESP/گارانتی5ساله فعال نگین خودرو /آماده تعویض '
+                'پلاک و انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'كوليوس',
+ 'price': 'توافقی',
+ 'production': '2018',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/174599_1-m.jpg',
+ 'time': 1662811299,
+ 'title': 'رنو كوليوس 2018',
+ 'token': 868581702683901949,
+ 'url': 'https://www.banikhodro.com/car/sale-174599/2018-renault-koleos/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-79672/2017-kia-cerato/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-79672/2017-kia-cerato/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'ارشید/سراتو نیو فیس مشکی 2017 / مارون / 5گرمکن 2 سردکن/درایو '
+                'مد/صندلی برقی با مموری/زنون/سنسور پارک جلو عقب/سانروف/کیلس و '
+                'استارتر با ولکوم/صندوق پران/کروز/بلوتوث/ESP/دنده پشت فرمان '
+                '/09120741496/ارشید /09129369845\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سراتو',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/79672_1-m.jpg',
+ 'time': 1662811300,
+ 'title': 'كيا سراتو 2017',
+ 'token': 103309103139131429,
+ 'url': 'https://www.banikhodro.com/car/sale-79672/2017-kia-cerato/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-152228/2015-bmw-428i-coupe/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-152228/2015-bmw-428i-coupe/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'ب ام و',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'قهوه ای',
+ 'company': 'not_defined',
+ 'consumption': '20000',
+ 'description': '\r\n'
+                '                                                        '
+                'استثنایی و خاص/فول کیت لاکچری لاین Luxury Line/مشابه '
+                'صفر/کارکرد واقعی/بدون خط و خش/10ایربگ/چوبکاری سفارشی '
+                '/سانروف/صندوق برقی/صندوق پران برقی/گرمکن صندلی ها/مانیتور '
+                'بزرگ/موس بزرگ/سنسور360درجه پارک/چراغ زنون/شیشه شور چراغ '
+                'جلو/کروز کنترل/کولر دوال دیجیتال/سیستم کنترل '
+                'پایداریESP/دیلایت/اتولایت/سنسور باران/3حالت رانندگی دکمه اکو '
+                'اسپرت اسپرت پلاس/ولکام/کیلس استارت/استارت واستاپ '
+                'ترافیکی/سیستم صوتی/آنتن کوسه ای/سرویسها به موقع انجام شده/ '
+                'دیدنی/بدون رنگ و کارکرد واقعی به شرط کارشناس و نمایندگی/آماده '
+                'محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': '428i کوپه',
+ 'price': 'توافقی',
+ 'production': '2015',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/152228_1-m.jpg',
+ 'time': 1662811300,
+ 'title': 'ب ام و 428i کوپه 2015',
+ 'token': 670029354834823538,
+ 'url': 'https://www.banikhodro.com/car/sale-152228/2015-bmw-428i-coupe/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-187905/2017-lexus-nx-200t/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-187905/2017-lexus-nx-200t/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'تیتانیوم',
+ 'company': 'not_defined',
+ 'consumption': '27000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین8کلید F Sport/سند دست اول/کم کارکرد/بدون خط و خش/مشابه '
+                'صفر/سفارش کانادا فول کامل/6رادار(رادارهای:کروز هوشمند،ضد '
+                'تصادف،بین خطوط،نقطه کور،جانبی،نوربالا اتو)/4دوربین360 '
+                'درجه/آینه تاشو اتومات/انجین استارت از راه دور/رینگ مشکی/سیستم '
+                'ورود به خانه Home Link/دنده پشت فرمان/هدآپ/11ایربگ+ایربگ '
+                'زانو/3گرمکن/چراغ جلوLED/سانروف/مانیتور/مموری/صندوق برقی/شیشه '
+                'رفلکس/کیلس4درب/صندلی برقی/(4حالت:اسپرت '
+                'پلاس،اسپرت،نرمال،ECO)/ترمز برقی/AutoHold/موس تاچ/شارژر '
+                'وایرلس/ESP/تمام سرویسها به موقع انجام شده/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX200T',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/187905_1-m.jpg',
+ 'time': 1662811301,
+ 'title': 'لکسوس NX200T 2017',
+ 'token': 128891101916624186,
+ 'url': 'https://www.banikhodro.com/car/sale-187905/2017-lexus-nx-200t/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-196438/1399-peugeot-405/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-196438/1399-peugeot-405/>
+{'body_condition': 'يک لکه رنگ',
+ 'brand': 'پژو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '32000',
+ 'description': '\r\n'
+                '                                                        سالم '
+                'بی خط وخش لوازم اضافه دزدگیر تصویری جی پی اس پاور شیشه\r\n'
+                'فقط نوک کاپوت رنگ داره بدون ضربه به شاسی ها\r\n'
+                'ماشین کارمندی هستش\r\n'
+                'فقط مصرف کننده تماس حاصل فرماید\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'دنده ای',
+ 'model': '405',
+ 'price': 'توافقی',
+ 'production': '1399',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/196438_1-m.jpg',
+ 'time': 1662811301,
+ 'title': 'پژو 405 1399',
+ 'token': 914053552450729532,
+ 'url': 'https://www.banikhodro.com/car/sale-196438/1399-peugeot-405/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-190441/2017-lexus-nx300h/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-190441/2017-lexus-nx300h/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'نقره ای',
+ 'company': 'not_defined',
+ 'consumption': '70000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین8کلید/سفارش عمان/بدون خط و خش/مشابه '
+                'صفر/6رادار(رادارهای:کروز هوشمند،ضد تصادف،بین خطوط،نقطه '
+                'کور،جانبی،نوربالا اتو)/4دوربین360درجه/11ایربگ+ایربگ '
+                'زانو/سیستم صوتی مارک لوینسون Mark Levinson/هدآپ/صندلیهای عقب '
+                'و جلو برقی/2گرمکن و2سردکن/آینه تاشو اتومات/چراغهای '
+                'جلوLED/سانروف/دوربین نوربالا اتومات/مانیتور بزرگ/ممورى/صندوق '
+                'برقی/شیشه رفلکس/نویگیشن/کیلس4درب/استارتر/(4حالت:اسپرت '
+                'پلاس،اسپرت،نرمال،ECO)/ترمزدستی برقی/AutoHold/صفحه موس '
+                'تاچ/شارژر وایرلس/ESP/تمام سرویسها به موقع انجام شده/آماده '
+                'محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX300H',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/190441_1-m.jpg',
+ 'time': 1662811301,
+ 'title': 'لکسوس NX300H 2017',
+ 'token': 116282720145990984,
+ 'url': 'https://www.banikhodro.com/car/sale-190441/2017-lexus-nx300h/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-190361/2017-renault-koleos/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-190361/2017-renault-koleos/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'رنو',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '52000',
+ 'description': '\r\n'
+                '                                                        فول '
+                'کامل/اتوترانک/اتو پارک۳حالته ورود و خروج/شرکتی/کم '
+                'کارکرد/مشابه صفر/استثنایی کاملا سالم/بدون خط وخش/2رادار/رادار '
+                'نقطه کور و رادار خروج از پارک/سیستم صوتی بوز BOSE/ساب عقب '
+                'وجلو/سنسور360درجه/گرم کن و سردکن/صندوق پران/چراغها LEDدبل '
+                'تکنولوژیPURE VISION/مانیتور لمسی بزرگ/کیلومتر تمام '
+                'دیجیتال/نورپردازی/ترمزدستی برقی/سقف پاناروما/سانروف/کیلس '
+                'استارتر/سیستم تقسیم نیروAWDاتو و2WD/دفلاک/آینه تاشو '
+                'برقی/صندلی برقی/اتولایت/ESP/تمام سرویس ها به موقع انجام '
+                'شده/به شرط کارشناس/بدون سائیدگی چرم/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'كوليوس',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/190361_1-m.jpg',
+ 'time': 1662811302,
+ 'title': 'رنو كوليوس 2017',
+ 'token': 857587206717544500,
+ 'url': 'https://www.banikhodro.com/car/sale-190361/2017-renault-koleos/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page8> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-188497/2018-hyundai-elantra/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-188497/2018-hyundai-elantra/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '24000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/5سال گارانتی آسان موتور/سند اول/کم کارکرد/بدون خط '
+                'وخش/کاملا سالم/فولترین/2رادار نقطه کور و خروج از پارک/فول '
+                'ایربگ/ایربگ زانو/سیستم اینفینیتی/سابوفر عقب وجلو/مانیتور '
+                'فابریک/5گرمکن2سردکن/گرمکن فرمان/Drive Mode/کیلس استارتر '
+                '/سانروف/چراغ زنون/چراغ عقب نئونی/تنظیم ارتفاع چراغ/سنسور '
+                '360پارک/آینه تاشو اتومات/سیستم Welcome/بلوتوث/کروز '
+                'کنترل/مموری صندلی/صندلی برقی/صندلی چرم/اتولایت/ESP/پدال گاز و '
+                'ترمز اسپورت فلزی/دیلایت/Cool Box/کولر دوال/تمام سرویسها به '
+                'موقع/فنی وبدنه بدون نقص/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'النترا',
+ 'price': 'توافقی',
+ 'production': '2018',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/188497_1-m.jpg',
+ 'time': 1662811303,
+ 'title': 'هیوندای النترا 2018',
+ 'token': 124775635184565902,
+ 'url': 'https://www.banikhodro.com/car/sale-188497/2018-hyundai-elantra/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-182433/2016-kia-optima/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-182433/2016-kia-optima/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'نقره ای',
+ 'company': 'not_defined',
+ 'consumption': '19000',
+ 'description': '\r\n'
+                '                                                        مشابه '
+                'صفر/فول ترین شرکتی/GT Line/سند اول/کم کارکرد/بدون خط '
+                'وخش/کاملا سالم/11ایربگ/سقف جیر/اتوپارک 6حالته ورود و '
+                'خروج/سیستم Harman&Kardon با ساب/مانیتور  فابریک/کالیبر ترمز '
+                'برمبو/دنده پشت فرمان/فرمانDبا3حالتDrive Mode/ شارژ ر '
+                'وایرلس/صندوق پران هوشمند/5گرم و2سرد/چراغهای جلو جدید '
+                'زنون/شیشه شور چراغ/صندلی2طرف برقی/مموری/سقف '
+                'پاناروما/ESP/سنسور360 پارک/دوربین/آینه تاشو '
+                'اتومات/سیستمWelcome/بلوتوث/کیلس استارتر/Cool Box/کولر '
+                'دوال/پرده2طرف/تمام سرویسها به موقع انجام شده/فنی وبدنه بدون '
+                'نقص/آماده انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'اپتیما',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/182433_1-m.jpg',
+ 'time': 1662811303,
+ 'title': 'كيا اپتیما 2016',
+ 'token': 351373429809793458,
+ 'url': 'https://www.banikhodro.com/car/sale-182433/2016-kia-optima/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-176993/2013-lexus-lx570/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-176993/2013-lexus-lx570/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '80000',
+ 'description': '\r\n'
+                '                                                        فول '
+                'کامل سفارش عمان/داخل زعفرانی/بدون رنگ  و خط  و خش/موتور 5700 '
+                'سی سی 8 سیلندر/رادار/سیستم تنظیم ارتفاع/سیستم تعلیق فعال '
+                'هوشمند/سیستم کرال/سیستم صوتی حرفه ای مارک لوینسون/کروز کنترل '
+                'هوشمند/AFS/تهویه 4نقطه ای/تمام سرویسها به موقع انجام شده/فنی '
+                'وبدنه بدون نقص/آماده تعویض پلاک و انتقال سند\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'LX570',
+ 'price': 'توافقی',
+ 'production': '2013',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/176993_1-m.jpg',
+ 'time': 1662811304,
+ 'title': 'لکسوس LX570 2013',
+ 'token': 604930554817241136,
+ 'url': 'https://www.banikhodro.com/car/sale-176993/2013-lexus-lx570/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-181175/2014-kia-optima/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-181175/2014-kia-optima/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'كيا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '84000',
+ 'description': '\r\n'
+                '                                                        '
+                'فول/بی نظیر کاملا سالم/اسپورت پکیج/از4000تا دست خودم '
+                'بوده/بدون خط و خش/کم کارکرد واقعی/10 ایربگ/مانیتور سیستم '
+                'اینفینیتیinfinity فابریک/فرمان2حالته/فرمانOشکل لاکچری/طرح '
+                'چوبکاری داخل/سنسور پارک360درجه/2گرمکن و2 سردکن صندلیها/سابوفر '
+                'عقب وجلو/دنده پشت فرمان/ترمزدستی برقی وAuto Hold/چراغ '
+                'زنون/شیشه شور چراغ/مموری/صندلی2طرف برقی/سقف '
+                'پاناروما/ESP/صندلی چرم/دوربین عقب/کروز کنترل/بلوتوث/کیلس '
+                'استارتر/آینه تاشو برقی/تمام آپشنها فابریک/فوق العاده '
+                'سالم/تمام سرویس ها به موقع انجام شده/به شرط کارشناس/آماده '
+                'محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'اپتیما',
+ 'price': 'توافقی',
+ 'production': '2014',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/181175_1-m.jpg',
+ 'time': 1662811304,
+ 'title': 'كيا اپتیما 2014',
+ 'token': 789273263853818917,
+ 'url': 'https://www.banikhodro.com/car/sale-181175/2014-kia-optima/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-195674/1397-hyundai-i20-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-195674/1397-hyundai-i20-ir/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '70000',
+ 'description': '\r\n'
+                '                                                        فول '
+                'آپشنال/سند دست اول/کاملا سالم/1سال بیمه/تمام سرویسها از ابتدا '
+                'به موقع انجام شده در نمایندگی کرمان موتور/آگهی شخصی/آماده '
+                'انتقال سند/کیلومتر واقعی/فنی و بدنه بدون نقص/شاسی ها و بدنه '
+                'کاملا سالم و بدون ضربه/شرکتی کرمان موتور/کیلس استارتر/2 '
+                'ایربگ/ESP/آینه برقی/مانیتور بزرگ/دوربین دنده عقب/کولر '
+                'دیجیتال/سنسور باد لاستیک/کامپیوتر و صفحه نمایشگر سفریTRIP '
+                'Monitor/سنسور پارک دنده عقب/سنسور نور و باران/تنظیم ارتفاع '
+                'چراغ جلو/آینه الکتروکرومیک/کنترل صوتی بر روی فرمان/روکش صندلی '
+                'چرم/کم مصرف\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'i20 مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1397',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/195674_1-m.jpg',
+ 'time': 1662811305,
+ 'title': 'هیوندای i20 مونتاژ 1397',
+ 'token': 749339869327689739,
+ 'url': 'https://www.banikhodro.com/car/sale-195674/1397-hyundai-i20-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-187715/2017-lexus-nx300h/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-187715/2017-lexus-nx300h/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'لکسوس',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '11000',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین7کلید F Sport/سفارش اروپا/کم کارکرد/بدون خط و خش/مشابه '
+                'صفر/6رادار(رادارهای:کروز هوشمند،ضد تصادف،بین خطوط،نقطه '
+                'کور،جانبی،نوربالا اتو)/4دوربین360درجه/کیت صوتی اگزوز '
+                'فابریکASC/دنده پشت فرمان/سیستم صوتی مارک لوینسون Mark '
+                'Levinson/هدآپ/11ایربگ+ایربگ زانو/3گرمکن/آینه تاشو '
+                'اتومات/چراغهای جلوLED/سقف پاناروما/مانیتور/ممورى/صندوق '
+                'برقی/شیشه رفلکس/کیلس4درب/صندلی برقی/استارتر/(4حالت:اسپرت '
+                'پلاس،اسپرت،نرمال،ECO)/ترمزدستی برقی/AutoHold/موس تاچ/شارژر '
+                'وایرلس/ESP/تمام سرویسها به موقع انجام شده/آماده محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'NX300H',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/187715_1-m.jpg',
+ 'time': 1662811305,
+ 'title': 'لکسوس NX300H 2017',
+ 'token': 144286871134163369,
+ 'url': 'https://www.banikhodro.com/car/sale-187715/2017-lexus-nx300h/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-162363/2013-hyundai-ix35/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-162363/2013-hyundai-ix35/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': '102000',
+ 'description': '\r\n'
+                '                                                        '
+                'IX35واقعی/LIMITEDفول ترین سفارش اروپا/مشابه صفر/بدون خط '
+                'وخش/کم کارکرد واقعی/2برگ سند/10 ایربگ/4گرمکن صندلیها/مه شکن '
+                'های گرد با جداره کروم/شیشه رفلکس فابریک/جلوپنجره  '
+                'کروم/2دیفرانسیل/2400cc/سقف پاناروما/سانروف/ESP/شیب '
+                'سنج/دفلاک/کیلس استارتر/صندلی برقی/رینگ اسپرت18/دوربین '
+                'عقب/کروزکنترل/سنسورعقب/آینه تاشوبرقی/قفل ایربگ/تماما '
+                'فابریک/گارانتی آسان موتور داشته/تمام سرویسها به موقع در '
+                'نمایندگی آسان موتور اشرفی اصفهانی انجام شده با فاکتور/روغن '
+                'گیربکس تازه عوض شده/لاستیک نو/یک سال بیمه/فنی و بدنه بدون '
+                'نقص\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'ix35',
+ 'price': 'توافقی',
+ 'production': '2013',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/162363_1-m.jpg',
+ 'time': 1662811306,
+ 'title': 'هیوندای ix35 2013',
+ 'token': 133426290206290698,
+ 'url': 'https://www.banikhodro.com/car/sale-162363/2013-hyundai-ix35/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/#page3> (referer: https://www.banikhodro.com)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-79885/2017-toyota-prius/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-79885/2017-toyota-prius/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'تویوتا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'مشکی',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                '/ارشید/فول با گارانتی شرکت ایرتویا سنسور پارک عقب / داخل '
+                'طوسی/هدآپ / شارژر وایرلس / فول ایربگ با ایربگ زانو / کیلس '
+                'استارتر / سیستم صوتی حرفه ای JBL / رادار نقطه کور و رادار بین '
+                'خطوط / درایو مد / EV Mode / کروز کنترل / ESP / تنظیم گودی کمر '
+                '/ دکمه پارک الکترونیکی / سنسور وضعیت باد لاستیک / آئینه تاشو '
+                'برقی/ دی لایت و اتو لایت / کروز کنترل /09120741496\r\n'
+                '                                                    ',
+ 'fuel': 'هیبرید',
+ 'gear_box': 'اتومات',
+ 'model': 'پریوس',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/79885_1-m.jpg',
+ 'time': 1662811307,
+ 'title': 'تویوتا پریوس 2017',
+ 'token': 466485291037024554,
+ 'url': 'https://www.banikhodro.com/car/sale-79885/2017-toyota-prius/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-80364/2017-hyundai-santafe/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-80364/2017-hyundai-santafe/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'ارشید/5سال گارانتی کرمان موتور/سانتافه فول داخل '
+                'مارون/اتوپارک6 حالته ورود و خروج/ 5گرمکن 2 سردکن/موتور '
+                'GDI/ن/اتو پارک /سنسور360 /سقف پاناراما/ مانیتور بزرگ فابریک / '
+                'کیلیس استارتر / رینگ جدید / رفلکس فابریک/ درب صندوق برقی/ '
+                'صندوق پران هوشمند / فول کامل /تحویل فوری با شرایط اقساط تا 24 '
+                'ماه بدون ضامن /09129369845/ارشید /\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'سانتافه',
+ 'price': 'توافقی',
+ 'production': '2017',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/80364_1-m.jpg',
+ 'time': 1662811308,
+ 'title': 'هیوندای سانتافه 2017',
+ 'token': 457277326338099435,
+ 'url': 'https://www.banikhodro.com/car/sale-80364/2017-hyundai-santafe/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-167238/1389-mazda-3-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-167238/1389-mazda-3-ir/>
+{'body_condition': 'يک لکه رنگ',
+ 'brand': 'مزدا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'نقره ای',
+ 'company': 'not_defined',
+ 'consumption': '170000',
+ 'description': '\r\n'
+                '                                                        سلامت '
+                'کامل/سند دوم/بدون خط وخش/ بدون ضربه و تصادف/ایربگ/مانیتور '
+                'بزرگ/2گرمکن صندلی ها/آیینه تاشو برقی/کروز کنترل/دوربین دنده '
+                'عقب/رادیاتور روغن گیربکس/پاور ویندوز/تخفیف بیمه کامل70 '
+                'درصد/یک سال بیمه کامل تا بهمن 99/یک لکه رنگ روی درب عقب سمت '
+                'شاگرد/تمام سرویسها به موقع انجام شده/کارکرد واقعی /فنی وبدنه '
+                'بدون نقص/آماده تعویض پلاک و انتقال سند\r\n'
+                '09129369845\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': '3 مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1389',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/167238_1-m.jpg',
+ 'time': 1662811308,
+ 'title': 'مزدا 3 مونتاژ 1389',
+ 'token': 498768113376410312,
+ 'url': 'https://www.banikhodro.com/car/sale-167238/1389-mazda-3-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-154101/2016-bmw-x3/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-154101/2016-bmw-x3/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'ب ام و',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '57000',
+ 'description': '\r\n'
+                '                                                        '
+                'استثنایی فولترین6رادار/مشابه صفر/گارانتی5ساله پرشیا '
+                'خودرو/بدون خط و خش/کیت M/رینگ20/هدآپ/سیستم '
+                'صوتیharman&kardon/گرمکن صندلیها/مانیتور جدید '
+                'بزرگ/دوربین360/رادار اکتیو کروز/رادار جلو تصادف/رادار تشخیص '
+                'عابر/رادار نقطه کور/رادار بین خطوط/صندوق برقی/سیستم کمک '
+                'پارکPDC/دوربین جلو/رادار تنظیم نور بالا/Adaptive LED/صندلی '
+                'برقی3تیکه/2دیفرانسیلXdrive/شیشه شورچراغ/مموری صندلی/دنده پشت '
+                'فرمان/کولر دیجیتال دوال/AUTO HOLD/ترمزدستی برقی/ESP/فرمان '
+                'برقی/تمام آپشنها فابریک/تمام سرویس ها به موقع انجام شده/آماده '
+                'محضر\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'X3',
+ 'price': 'توافقی',
+ 'production': '2016',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/154101_1-m.jpg',
+ 'time': 1662811309,
+ 'title': 'ب ام و X3 2016',
+ 'token': 126319424717824347,
+ 'url': 'https://www.banikhodro.com/car/sale-154101/2016-bmw-x3/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-152865/1397-hyundai-accent-ir/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-152865/1397-hyundai-accent-ir/>
+{'body_condition': 'بدون رنگ',
+ 'brand': 'هیوندای',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': 'صفر',
+ 'description': '\r\n'
+                '                                                        '
+                'فولترین/شرکتی/تحویل جدید/گارانتی کرمان موتور/6 ایربگ/موتور '
+                'یورو۶/مانیتور بزرگ فابریک/کیلس و استارتر/تهویه مطبوع '
+                'اتوماتیک/رینگ جدید مشکی ۱۶اینچ/سیستم مدیریت پایداری VSM/سیستم '
+                'کنترل پایداریESP و ESC/دوربین دنده عقب/سانروف۲حالته/آینه '
+                'برقی/سنسور فشار باد تایر/دیلایت/فرمان برقی/سنسور  نور/ gps '
+                'رهیاب ماهواره ای نویگیشن فعال فارسی/بلوتوث/اتولایت(سنسور '
+                'نور)/تحویل فوری/بیمه بدنه ۸۰ درصد تخفیف/مدارک کامل/سند آزاد '
+                'آماده محضر و انتقال کامل\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'اکسنت مونتاژ',
+ 'price': 'توافقی',
+ 'production': '1397',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/152865_1-m.jpg',
+ 'time': 1662811309,
+ 'title': 'هیوندای اکسنت مونتاژ 1397',
+ 'token': 490297579973644447,
+ 'url': 'https://www.banikhodro.com/car/sale-152865/1397-hyundai-accent-ir/'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.banikhodro.com/car/sale-193803/2008-toyota-landcruiser/> (referer: https://www.banikhodro.com/car/)
+INFO:root:title : 0.0
+INFO:root:province : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:brand : 0.0
+INFO:root:consumption : 0.0
+INFO:root:price : 0.0
+INFO:root:color : 0.0
+INFO:root:cash_installment : 100.0
+INFO:root:gear_box : 0.0
+INFO:root:company : 100.0
+INFO:root:chassis_type : 100.0
+INFO:root:model : 0.0
+INFO:root:body_condition : 0.0
+INFO:root:fuel : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://www.banikhodro.com/car/sale-193803/2008-toyota-landcruiser/>
+{'body_condition': 'يک لکه رنگ',
+ 'brand': 'تویوتا',
+ 'cash_installment': 'not_defined',
+ 'category': 'خودرو',
+ 'chassis_type': 'not_defined',
+ 'city': 'not_defined',
+ 'color': 'سفید',
+ 'company': 'not_defined',
+ 'consumption': '394000',
+ 'description': '\r\n'
+                '                                                        '
+                '8سیلندر 4700 سی سیVXR/سند دست دوم/بدون خط وخش/چرم صندلیها و '
+                'فنی وبدنه کاملا سالم/کاملترین لندکروز/4حلقه لاستیک نو/تمامی '
+                'سرویسها در ایرتویا انجام شده/آماده تعویض پلاک وانتقال '
+                'سند/13ایربگ/سیستم کرال تویوتا/مانیتوربزرگ فابریک/سیستم صوتی '
+                'حرفه ایJBL/ساب جلو وعقب/کولباکس/فنربندی شناور اتومات/آینه '
+                'تاشوبرقی/2صندلی برقی/دیفرانسیل4H,4L/سانروف/دیفلاک/کیلس '
+                'استارت/ESP/کولر عقب/شیشه شور/دستور صوتی/برق120/چوبکاری/رنگ '
+                'شدگی جزئی از روی کاپوت و دو گلگیر جلو در اثر افتادن شیشه روی '
+                'آن بدون ضربه و تصادف/شاسی ها سالم\r\n'
+                '                                                    ',
+ 'fuel': 'بنزین',
+ 'gear_box': 'اتومات',
+ 'model': 'لندکروز',
+ 'price': 'توافقی',
+ 'production': '2008',
+ 'province': 'تهران',
+ 'source_id': 13,
+ 'sub_category': 'سواری',
+ 'swap': None,
+ 'tell': 'not_defined',
+ 'thumbnail': 'https://www.banikhodro.com/AdvertiseImages/Cars/193803_1-m.jpg',
+ 'time': 1662811310,
+ 'title': 'تویوتا لندکروز 2008',
+ 'token': 127226069597125764,
+ 'url': 'https://www.banikhodro.com/car/sale-193803/2008-toyota-landcruiser/'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 33064,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 2027680,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 62,
+ 'downloader/response_status_count/404': 1,
+ 'dupefilter/filtered': 69,
+ 'elapsed_time_seconds': 28.664972,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 10, 12, 1, 50, 469359),
+ 'httpcompression/response_bytes': 10763051,
+ 'httpcompression/response_count': 62,
+ 'item_scraped_count': 51,
+ 'log_count/DEBUG': 129,
+ 'log_count/INFO': 775,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 150110208,
+ 'memusage/startup': 150110208,
+ 'request_depth_max': 2,
+ 'response_received_count': 63,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 62,
+ 'scheduler/dequeued/memory': 62,
+ 'scheduler/enqueued': 62,
+ 'scheduler/enqueued/memory': 62,
+ 'start_time': datetime.datetime(2022, 9, 10, 12, 1, 21, 804387)}
+INFO:scrapy.core.engine:Spider closed (finished)

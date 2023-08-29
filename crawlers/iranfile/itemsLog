@@ -1,0 +1,1144 @@
+INFO:scrapy.utils.log:Scrapy 2.6.2 started (bot: iranfile)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.4.0, Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)], pyOpenSSL 22.0.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 37.0.4, Platform macOS-12.5-arm64-arm-64bit
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'iranfile',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'iranfile.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['iranfile.spiders']}
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 20882a7130350a5b
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/scrapy_autounit/parser.py:6: ScrapyDeprecationWarning: Module scrapy.utils.reqser is deprecated, please use request.to_dict method and/or scrapy.utils.request.request_from_dict instead
+  from scrapy.utils.reqser import request_to_dict
+
+WARNING:scrapy_autounit.middleware:Recording with concurrency > 1! Data races in shared object modification may create broken tests.
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy_autounit.AutounitMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/robots.txt> (referer: None)
+DEBUG:protego:Rule at line 1 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 2 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 3 without any user agent to enforce it on.
+DEBUG:protego:Rule at line 4 without any user agent to enforce it on.
+DEBUG:filelock:Attempting to acquire lock 4441837712 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4441837712 acquired on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Attempting to release lock 4441837712 on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:filelock:Lock 4441837712 released on /Users/hamidba/.cache/python-tldextract/3.10.4.final__3.10__22a438__tldextract-3.3.1/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968387/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968387/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88>
+{'area': '65',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '150,000,000',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '6,500,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان تهران نو خ ابوریحان',
+ 'token': 269327244456728525,
+ 'url': 'https://iranfile.ir/FileDetail/3968387/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968384/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968384/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2>
+{'area': '60',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '550,000,000',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '2,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان كوی فراز خ فراز شمالی',
+ 'token': 462285528433758734,
+ 'url': 'https://iranfile.ir/FileDetail/3968384/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968386/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_4%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968386/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_4%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '186',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '500,000,000',
+ 'description': '2پاركینگ',
+ 'elevator': True,
+ 'floor_covering': 'پارکت',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '30,000,000',
+ 'room': '4',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان سعادت آباد خ هفدهم',
+ 'token': 126834212137195365,
+ 'url': 'https://iranfile.ir/FileDetail/3968386/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_4%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968390/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968390/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2>
+{'area': '60',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '250,000,000',
+ 'description': 'دارای پاركینگ میهمان-اجاره یكسال پیش دریافت میشود با كسر یك '
+                'ماه اجاره',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '12,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان كوی فراز شهرك بوعلی',
+ 'token': 569331457938801575,
+ 'url': 'https://iranfile.ir/FileDetail/3968390/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%A9%D9%88%DB%8C_%D9%81%D8%B1%D8%A7%D8%B2'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968391/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%A8%D9%84%D8%A7%D9%86> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968391/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%A8%D9%84%D8%A7%D9%86>
+{'area': '50',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '160,000,000',
+ 'elevator': False,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'rent': '4,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان سبلان شمالی مسیل باختر خ سجاد',
+ 'token': 432678017003340786,
+ 'url': 'https://iranfile.ir/FileDetail/3968391/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%A8%D9%84%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968392/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968392/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8>
+{'area': '150',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '500,000,000',
+ 'description': ' ',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '13,000,000',
+ 'room': '3',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان شهرك غرب بلوار فرحزادی',
+ 'token': 390105750505790448,
+ 'url': 'https://iranfile.ir/FileDetail/3968392/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968389/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%AF%D9%84%D8%A8%D8%B1%DA%AF> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968389/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%AF%D9%84%D8%A8%D8%B1%DA%AF>
+{'area': '90',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '850,000,000',
+ 'description': 'قابل تبدیل',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '0',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان گلبرگ غربی نرسیده به میدان هلال احمر',
+ 'token': 149342020374553310,
+ 'url': 'https://iranfile.ir/FileDetail/3968389/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%DA%AF%D9%84%D8%A8%D8%B1%DA%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3947685/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3947685/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '95',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '300,000,000',
+ 'description': 'لابی, بدون حیوان خانگی ',
+ 'elevator': True,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '17,500,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان سعادت آباد خ علامه جنوبی',
+ 'token': 318062771416114330,
+ 'url': 'https://iranfile.ir/FileDetail/3947685/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968395/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%85%D8%B3_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968395/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%85%D8%B3_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '125',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '1,300,000,000',
+ 'description': 'اسپلیت',
+ 'elevator': True,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'MDF',
+ 'package': True,
+ 'parking': True,
+ 'rent': '0',
+ 'room': '3',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان شمس آباد نرسیده به میدان بهشتی',
+ 'token': 916321331147280405,
+ 'url': 'https://iranfile.ir/FileDetail/3968395/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%85%D8%B3_%D8%A2%D8%A8%D8%A7%D8%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3947693/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%86%DB%8C_%D9%87%D8%A7%D8%B4%D9%85> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3947693/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%86%DB%8C_%D9%87%D8%A7%D8%B4%D9%85>
+{'area': '55',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '350,000,000',
+ 'elevator': False,
+ 'floor_covering': 'PVC',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '3,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان بنی هاشم خ امیرنیا ك قادری',
+ 'token': 104802212128387107,
+ 'url': 'https://iranfile.ir/FileDetail/3947693/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%86%DB%8C_%D9%87%D8%A7%D8%B4%D9%85'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968396/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%B9%D9%84%D9%85> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968396/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%B9%D9%84%D9%85>
+{'area': '58',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '60,000,000',
+ 'description': 'نیمه مبله ',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': True,
+ 'parking': False,
+ 'rent': '12,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان معلم خ جلالی خ هدایتی',
+ 'token': 134559549345519697,
+ 'url': 'https://iranfile.ir/FileDetail/3968396/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%B9%D9%84%D9%85'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968382/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968382/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '130',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '500,000,000',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'rent': '12,000,000',
+ 'room': '3',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان سعادت آباد علامه جنوبی',
+ 'token': 289889162136612494,
+ 'url': 'https://iranfile.ir/FileDetail/3968382/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B3%D8%B9%D8%A7%D8%AF%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3805373/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3805373/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88>
+{'area': '88',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'كلید نخورده ',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': True,
+ 'parking': True,
+ 'price': '4,840,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان تهران نو میدان امامت',
+ 'token': 491787731902811669,
+ 'url': 'https://iranfile.ir/FileDetail/3805373/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%86%D9%88'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3886570/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%87%D9%86%DA%AF%D8%A7%D9%85> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3886570/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%87%D9%86%DA%AF%D8%A7%D9%85>
+{'area': '300',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': '3 ط 100 متری - قابل سكونت - قیمت زمین - بر تقریبی',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'فلزي',
+ 'package': False,
+ 'parking': False,
+ 'price': '6,500,000,000',
+ 'room': '6',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'مستغلات هنگام نرسیده به كوی پنجم',
+ 'token': 965445185261507600,
+ 'url': 'https://iranfile.ir/FileDetail/3886570/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%87%D9%86%DA%AF%D8%A7%D9%85'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3835872/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C3%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86_%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3835872/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C3%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86_%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86>
+{'area': '165',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'دارای 3 واحد 55 متری 1 خ - قابل سكونت - قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'چوبي فلزي',
+ 'package': False,
+ 'parking': True,
+ 'price': '5,500,000,000',
+ 'room': '3',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'اداری دروازه شمیران خ ناطقی ( خورشید )',
+ 'token': 733872153523789348,
+ 'url': 'https://iranfile.ir/FileDetail/3835872/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C3%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86_%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3906130/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%85%D8%A7%D9%85_%D8%AD%D8%B3%DB%8C%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3906130/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%85%D8%A7%D9%85_%D8%AD%D8%B3%DB%8C%D9%86>
+{'area': '110',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'price': '3,850,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان میدان امام حسین خ ثارالله',
+ 'token': 143453212778924285,
+ 'url': 'https://iranfile.ir/FileDetail/3906130/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%85%D8%A7%D9%85_%D8%AD%D8%B3%DB%8C%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3842917/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3842917/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)>
+{'area': '90',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': ' ',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'آبدارخانه',
+ 'package': False,
+ 'parking': True,
+ 'price': '3,500,000,000',
+ 'room': '4',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'اداری میدان انقلاب ابتدای خ آزادی',
+ 'token': 975922271971539280,
+ 'url': 'https://iranfile.ir/FileDetail/3842917/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968394/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968394/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8>
+{'area': '150',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '1,400,000,000',
+ 'description': ' ',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '0',
+ 'room': '3',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان شهرك غرب خ فلامك جنوبی',
+ 'token': 118967580226906730,
+ 'url': 'https://iranfile.ir/FileDetail/3968394/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_3%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%BA%D8%B1%D8%A8'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3837832/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3837832/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)>
+{'area': '20',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'فروش با دستگاه چاپ دیجیتال و لوازم اداری و حق كسب و پیشه -\n'
+                'ارتفاع از كف 4 متر - سرقفلی ',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': True,
+ 'price': '3,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'مغازه میدان انقلاب ابتدای خ آزادی',
+ 'token': 329545339907019019,
+ 'url': 'https://iranfile.ir/FileDetail/3837832/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C(%D8%A7%D8%B2_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%AA%D8%A7_%D9%86%D9%88%D8%A7%D8%A8)'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3825035/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3825035/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C>
+{'area': '175',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': '175متر بنا در 2 طبقه و نیم - قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '6,600,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'کلنگی پیروزی خ نبرد شمالی',
+ 'token': 541401938111520948,
+ 'url': 'https://iranfile.ir/FileDetail/3825035/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968383/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968383/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87>
+{'area': '66',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '300,000,000',
+ 'description': ' ',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': True,
+ 'parking': False,
+ 'rent': '1,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان جشنواره نرسیده به 20متری محمدی',
+ 'token': 588614957225314912,
+ 'url': 'https://iranfile.ir/FileDetail/3968383/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3841591/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%81%D8%B1%D8%AC%D8%A7%D9%85_%D8%BA%D8%B1%D8%A8%DB%8C(_%D8%AA%D8%A7_%D8%B4%D9%87%DB%8C%D8%AF_%D8%A8%D8%A7%D9%82%D8%B1%DB%8C)> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3841591/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%81%D8%B1%D8%AC%D8%A7%D9%85_%D8%BA%D8%B1%D8%A8%DB%8C(_%D8%AA%D8%A7_%D8%B4%D9%87%DB%8C%D8%AF_%D8%A8%D8%A7%D9%82%D8%B1%DB%8C)>
+{'area': '88',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': ' ',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'فلزي',
+ 'package': False,
+ 'parking': True,
+ 'price': '3,340,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان فرجام غربی خ حیدرخانی',
+ 'token': 794903803871229810,
+ 'url': 'https://iranfile.ir/FileDetail/3841591/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%81%D8%B1%D8%AC%D8%A7%D9%85_%D8%BA%D8%B1%D8%A8%DB%8C(_%D8%AA%D8%A7_%D8%B4%D9%87%DB%8C%D8%AF_%D8%A8%D8%A7%D9%82%D8%B1%DB%8C)'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968388/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968388/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3>
+{'area': '57',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '350,000,000',
+ 'description': 'پاركینگ حیاط ',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'rent': '0',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان تهرانپارس بلوار پروین خ 206',
+ 'token': 125246657438007475,
+ 'url': 'https://iranfile.ir/FileDetail/3968388/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3931394/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%DA%86_%D8%B4%D9%85%DB%8C%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3931394/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%DA%86_%D8%B4%D9%85%DB%8C%D8%B1%D8%A7%D9%86>
+{'area': '136',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'آبدارخانه',
+ 'package': False,
+ 'parking': True,
+ 'price': '6,120,000,000',
+ 'room': '4',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'اداری پیچ شمیران خ نورمحمدی',
+ 'token': 238725893284198952,
+ 'url': 'https://iranfile.ir/FileDetail/3931394/%D9%85%D9%84%DA%A9_%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C4%D8%A7%D8%AA%D8%A7%D9%82%D8%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%DA%86_%D8%B4%D9%85%DB%8C%D8%B1%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968393/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B1%DA%98%D8%A7%D9%86%D8%AA%DB%8C%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968393/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B1%DA%98%D8%A7%D9%86%D8%AA%DB%8C%D9%86>
+{'area': '1000',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': '1000 متر بنا در 6 واحد - قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '84,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'کلنگی میدان آرژانتین خ الوند ابتدا بزرگراه آفریقا',
+ 'token': 551000061826317645,
+ 'url': 'https://iranfile.ir/FileDetail/3968393/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B1%DA%98%D8%A7%D9%86%D8%AA%DB%8C%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3947094/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3947094/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C>
+{'area': '57',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'كلا 10 واحد',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': True,
+ 'price': '1,640,000,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان پیروزی خ تاجری',
+ 'token': 126914687391988144,
+ 'url': 'https://iranfile.ir/FileDetail/3947094/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3908476/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3908476/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '76',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'ارتفاع 3.5 متر-10 متر انباری كاذب-ملك و سرقفلی',
+ 'elevator': False,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '19,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'مغازه جنت آباد مركزی بلوار شاهین',
+ 'token': 567680418950186935,
+ 'url': 'https://iranfile.ir/FileDetail/3908476/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3236077/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3236077/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%D8%A7%D9%86>
+{'area': '20',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'ارتفاع 3/5 متر - 20 متر زیرزمین كه در قیمت یك سوم محاسبه '
+                'میشود كلا 28 متر - ملكیت و سرقفلی',
+ 'elevator': False,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '9,800,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'مغازه شهران بزرگراه نیایش خ حاج آقا خیابانی (وسك)',
+ 'token': 212591768731382386,
+ 'url': 'https://iranfile.ir/FileDetail/3236077/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3888506/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3888506/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9>
+{'area': '270',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'دارای 3 واحد 90 متری + 12 متر تجاری-گذر16 متری - قیمت زمین و '
+                'تجاری با هم-قیمت به روز',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'price': '26,000,000,000',
+ 'room': '6',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'مستغلات پونك خ طالقانی',
+ 'token': 140241231163893314,
+ 'url': 'https://iranfile.ir/FileDetail/3888506/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968385/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968385/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3>
+{'area': '130',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '800,000,000',
+ 'description': ' ',
+ 'elevator': False,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'rent': '0',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان تهرانپارس شهرك گلستان',
+ 'token': 618429466817719617,
+ 'url': 'https://iranfile.ir/FileDetail/3968385/%D8%B1%D9%87%D9%86_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%BE%D8%A7%D8%B1%D8%B3'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3082177/%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D8%AC%D8%A7%D8%B1%DB%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3082177/%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D8%AC%D8%A7%D8%B1%DB%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9>
+{'area': '177',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'ارتفاع 2.8 متر - ملك و سرقفلی - 80 متر حیاط مشاع',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '81,420,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'تجاری پونك نرسیده به میدان پونك',
+ 'token': 174016760245132838,
+ 'url': 'https://iranfile.ir/FileDetail/3082177/%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D8%AC%D8%A7%D8%B1%DB%8C_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968399/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AF%D8%A8%D8%B3%D8%AA%D8%A7%D9%86> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968399/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AF%D8%A8%D8%B3%D8%AA%D8%A7%D9%86>
+{'area': '53',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '120,000,000',
+ 'description': 'به مجرد آقا اجاره داده میشود ',
+ 'elevator': True,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': True,
+ 'parking': False,
+ 'rent': '8,500,000',
+ 'room': '1',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان دبستان نرسیده به خ حیامنش',
+ 'token': 735512417770239008,
+ 'url': 'https://iranfile.ir/FileDetail/3968399/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_1%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AF%D8%A8%D8%B3%D8%AA%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968398/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%84%D9%88%D8%A7%D8%B1%D9%85%D8%B1%D8%B2%D8%AF%D8%A7%D8%B1%D8%A7%D9%86> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968398/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%84%D9%88%D8%A7%D8%B1%D9%85%D8%B1%D8%B2%D8%AF%D8%A7%D8%B1%D8%A7%D9%86>
+{'area': '120',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '100,000,000',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'چوبي فلزي',
+ 'package': False,
+ 'parking': False,
+ 'rent': '8,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان بلوار مرزداران خ اطاعتی شمالی',
+ 'token': 594297943777031745,
+ 'url': 'https://iranfile.ir/FileDetail/3968398/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A8%D9%84%D9%88%D8%A7%D8%B1%D9%85%D8%B1%D8%B2%D8%AF%D8%A7%D8%B1%D8%A7%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3907126/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%B1%D8%A7%D9%87_%D8%A2%D9%87%D9%86> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3907126/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%B1%D8%A7%D9%87_%D8%A2%D9%87%D9%86>
+{'area': '0',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'زمین بایر',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '110,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'زمین دهكده المپیك روبروی درب غربی استادیوم',
+ 'token': 330115400294255982,
+ 'url': 'https://iranfile.ir/FileDetail/3907126/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%B4%D9%87%D8%B1%DA%A9_%D8%B1%D8%A7%D9%87_%D8%A2%D9%87%D9%86'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968397/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%AC%DB%8C%D8%AF%DB%8C%D9%87_%D8%AC%D9%86%D9%88%D8%A8%DB%8C> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968397/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%AC%DB%8C%D8%AF%DB%8C%D9%87_%D8%AC%D9%86%D9%88%D8%A8%DB%8C>
+{'area': '80',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '200,000,000',
+ 'description': 'طبقه سوم روئیتی',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'rent': '4,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': True,
+ 'title': 'آپارتمان مجیدیه جنوبی خ حاجی پور',
+ 'token': 120847923603916666,
+ 'url': 'https://iranfile.ir/FileDetail/3968397/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%85%D8%AC%DB%8C%D8%AF%DB%8C%D9%87_%D8%AC%D9%86%D9%88%D8%A8%DB%8C'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3568925/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3568925/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)>
+{'area': '0',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'زمین بایر - قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '11,200,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'زمین اشرفی اصفهانی سیمون بولیوار خ كشاورز',
+ 'token': 370991629345046183,
+ 'url': 'https://iranfile.ir/FileDetail/3568925/%D8%B2%D9%85%DB%8C%D9%86_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3968400/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%88%D8%AD%DB%8C%D8%AF%DB%8C%D9%87> (referer: https://iranfile.ir/Search/81868128-1/%D8%B1%D9%87%D9%86_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3968400/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%88%D8%AD%DB%8C%D8%AF%DB%8C%D9%87>
+{'area': '67',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'deposit': '200,000,000',
+ 'description': 'اسپلیت - قابل تبدیل',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'هایگلاس',
+ 'package': True,
+ 'parking': False,
+ 'rent': '6,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'آپارتمان وحیدیه خ بخت آزاد',
+ 'token': 952448658226042201,
+ 'url': 'https://iranfile.ir/FileDetail/3968400/%D8%B1%D9%87%D9%86_%D9%88_%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86_2%D8%AE%D9%88%D8%A7%D8%A8%D8%8C%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%88%D8%AD%DB%8C%D8%AF%DB%8C%D9%87'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3947660/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3947660/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF>
+{'area': '20',
+ 'balcony': True,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'ارتفاع 3 متر-ملك و سرقفلی-معاوضه با آپارتمان هم انجام میشود',
+ 'elevator': False,
+ 'floor_covering': 'سنگ',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '14,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'مغازه جنت آباد جنوبی بعد از تقاطع آیت الله كاشانی',
+ 'token': 607117994598559593,
+ 'url': 'https://iranfile.ir/FileDetail/3947660/%D9%85%D8%BA%D8%A7%D8%B2%D9%87_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%AC%D9%86%D8%AA_%D8%A2%D8%A8%D8%A7%D8%AF'}
+INFO:scrapy.extensions.logstats:Crawled 42 pages (at 42 pages/min), scraped 38 items (at 38 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3887176/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3887176/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9>
+{'area': '200',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': True,
+ 'description': 'دارای 200 متر بنا در 1 طبقه-قابل سكونت - قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'سراميک',
+ 'kitchen': 'MDF',
+ 'package': False,
+ 'parking': False,
+ 'price': '19,800,000,000',
+ 'room': '2',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'مستغلات پونك ك پونه',
+ 'token': 144663065791201503,
+ 'url': 'https://iranfile.ir/FileDetail/3887176/%D9%85%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D8%AA_%D8%AC%D9%87%D8%AA_%D9%81%D8%B1%D9%88%D8%B4_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D9%BE%D9%88%D9%86%DA%A9'}
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://iranfile.ir/FileDetail/3947126/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)> (referer: https://iranfile.ir/Search/A4BDC39B-1/%D8%AE%D8%B1%DB%8C%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86)
+INFO:root:city : 0.0
+INFO:root:production : 0.0
+INFO:root:token : 0.0
+INFO:root:room : 0.0
+INFO:root:price : 0.0
+INFO:root:deposit : 0.0
+INFO:root:rent : 0.0
+DEBUG:scrapy.core.scraper:Scraped from <200 https://iranfile.ir/FileDetail/3947126/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)>
+{'area': '400',
+ 'balcony': False,
+ 'city': 'تهران',
+ 'cooler': False,
+ 'description': 'دارای بنا غیر قالب سكونت -پهنهR122-دارای دستورنقشه 5 طبقه - '
+                'قیمت زمین',
+ 'elevator': False,
+ 'floor_covering': 'نا مشخص',
+ 'kitchen': 'نا مشخص',
+ 'package': False,
+ 'parking': False,
+ 'price': '54,000,000,000',
+ 'room': '0',
+ 'source_id': 23,
+ 'storeroom': False,
+ 'title': 'کلنگی اشرفی اصفهانی باغ فیض',
+ 'token': 642045336600039794,
+ 'url': 'https://iranfile.ir/FileDetail/3947126/%DA%A9%D9%84%D9%86%DA%AF%DB%8C_%D8%AF%D8%B1_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%D8%B4%D8%B1%D9%81%DB%8C_%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%DB%8C(%D8%A7%D8%B2_%D8%A8%D9%84%D9%88%D8%A7%D8%B1_%D8%B3%DB%8C%D9%85%D9%88%D9%86_%D8%A8%D9%88%D9%84%DB%8C%D9%88%D8%A7%D8%B1_%D8%AA%D8%A7_%D8%AD%DA%A9%DB%8C%D9%85)'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 31636,
+ 'downloader/request_count': 44,
+ 'downloader/request_method_count/GET': 44,
+ 'downloader/response_bytes': 495083,
+ 'downloader/response_count': 44,
+ 'downloader/response_status_count/200': 44,
+ 'elapsed_time_seconds': 61.863267,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 9, 10, 12, 7, 20, 366513),
+ 'httpcompression/response_bytes': 1891497,
+ 'httpcompression/response_count': 44,
+ 'item_scraped_count': 40,
+ 'log_count/DEBUG': 93,
+ 'log_count/INFO': 291,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 91373568,
+ 'memusage/startup': 72351744,
+ 'request_depth_max': 2,
+ 'response_received_count': 44,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 43,
+ 'scheduler/dequeued/memory': 43,
+ 'scheduler/enqueued': 43,
+ 'scheduler/enqueued/memory': 43,
+ 'start_time': datetime.datetime(2022, 9, 10, 12, 6, 18, 503246)}
+INFO:scrapy.core.engine:Spider closed (finished)
